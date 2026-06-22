@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Dars — CzechMaster</title>
+<meta name="description" content="CzechMaster platformasida chex tili darsi.">
+<meta name="robots" content="index, follow">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2563EB">
+<link rel="apple-touch-icon" href="images/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/lesson.css">
+</head>
+<body>
+
+<a href="#lesson-main" class="skip-link">Asosiy kontentga o'tish</a>
+
+<div class="page-loader" data-page-loader>
+  <div class="spinner-lg"></div>
+  <span class="text-secondary text-sm">Dars yuklanmoqda...</span>
+</div>
+
+<div id="app">
+
+  <header class="app-header">
+    <a href="index.html" class="header-logo">
+      <span class="header-logo-icon">🇨🇿</span>
+      <span class="header-logo-text">Czech<span>Master</span></span>
+    </a>
+    <div class="header-actions" style="margin-left:auto;">
+      <button class="icon-btn theme-toggle" data-theme-toggle aria-label="Temani almashtirish">
+        <svg class="icon-sun" viewBox="0 0 20 20" fill="currentColor" width="20" height="20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-1.05-5.66a1 1 0 011.41 0l.71.71a1 1 0 01-1.41 1.41l-.71-.71a1 1 0 010-1.41zm-9.9 0a1 1 0 000 1.41l.71.71a1 1 0 001.41-1.41l-.71-.71a1 1 0 00-1.41 0zM3 9a1 1 0 100 2h1a1 1 0 100-2H3zm14 0a1 1 0 100 2h1a1 1 0 100-2h-1zM6.34 14.66a1 1 0 00-1.41 1.41l.71.71a1 1 0 001.41-1.41l-.71-.71zm8.32 0l-.71.71a1 1 0 001.41 1.41l.71-.71a1 1 0 00-1.41-1.41zM10 16a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1z"/></svg>
+        <svg class="icon-moon" viewBox="0 0 20 20" fill="currentColor" width="20" height="20" style="display:none"><path d="M17.3 13.6a8 8 0 01-10.9-10.9 1 1 0 00-1.2-1.4A10 10 0 1018.7 14.8a1 1 0 00-1.4-1.2z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div data-lesson-progress></div>
+
+  <main class="main-content" id="lesson-main">
+    <div class="lesson-layout">
+      <div class="lesson-main">
+        <div data-lesson-header></div>
+        <div data-lesson-content></div>
+        <div data-lesson-exercises></div>
+        <div data-lesson-quiz></div>
+        <div data-lesson-nav></div>
+      </div>
+      <aside class="lesson-toc" data-lesson-toc></aside>
+    </div>
+  </main>
+
+</div>
+
+<script src="js/theme.js"></script>
+<script src="js/toast.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/achievements.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/lesson-engine.js"></script>
+<script>
+  'use strict';
+  document.addEventListener('DOMContentLoaded', async () => {
+    ProgressManager.load();
+    ThemeManager.init();
+    await AchievementsManager.loadDefinitions();
+
+    const params = new URLSearchParams(window.location.search);
+    const lessonId = params.get('id');
+
+    if (!lessonId) {
+      document.querySelector('[data-lesson-header]').innerHTML = `
+        <div class="empty-state">
+          <div class="empty-state-icon">⚠️</div>
+          <div class="empty-state-title">Dars ID berilmagan</div>
+          <a href="index.html" class="btn btn-primary mt-4">Bosh sahifaga qaytish</a>
+        </div>`;
+    } else {
+      await LessonEngine.init(lessonId);
+    }
+
+    const loader = document.querySelector('[data-page-loader]');
+    if (loader) {
+      loader.classList.add('hiding');
+      setTimeout(() => loader.remove(), 400);
+    }
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+{
+  "exercises": [
+    {
+      "id": "l001", "level": "a1",
+      "sentence": "Ahoj, jmenuji se Petr. Jsem z Prahy.",
+      "translation": "Salom, mening ismim Petr. Men Pragadanman.",
+      "question": "Petr qayerdan?",
+      "options": ["Brno", "Praha", "Ostrava", "Plzeň"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l002", "level": "a1",
+      "sentence": "Dnes je pondělí a venku prší.",
+      "translation": "Bugun dushanba va tashqarida yomg'ir yog'moqda.",
+      "question": "Bugun qaysi kun?",
+      "options": ["Sobota", "Neděle", "Pondělí", "Pátek"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "l003", "level": "a1",
+      "sentence": "Mám tři sourozence: dva bratry a jednu sestru.",
+      "translation": "Mening uchta aka-uka/opa-singlim bor: ikkita aka/uka va bitta opa/singil.",
+      "question": "Nechta aka/uka bor?",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l004", "level": "a1",
+      "sentence": "Kočka je černá a pes je bílý.",
+      "translation": "Mushuk qora va it oq.",
+      "question": "Mushukning rangi qanday?",
+      "options": ["Bílá (oq)", "Černá (qora)", "Hnědá (jigarrang)", "Žlutá (sariq)"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l005", "level": "a1",
+      "sentence": "Snídaně je v sedm hodin ráno.",
+      "translation": "Nonushta ertalab soat yettida.",
+      "question": "Nonushta soat nechada?",
+      "options": ["6", "7", "8", "9"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l006", "level": "a2",
+      "sentence": "Každý den chodím do práce pěšky, protože bydlím blízko.",
+      "translation": "Men har kuni ishga piyoda boraman, chunki yaqin yashayman.",
+      "question": "Nima uchun u piyoda boradi?",
+      "options": ["Avtomashinasi yo'q", "Yaqin yashaydi", "Sport qiladi", "Pul tejaydi"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l007", "level": "a2",
+      "sentence": "Včera jsem byla v kině s kamarádkou. Film byl velmi dobrý.",
+      "translation": "Kecha men do'stim bilan kinoteatrda edim. Film juda yaxshi edi.",
+      "question": "U kecha qayerda edi?",
+      "options": ["Maktabda", "Kinoteatrda", "Uyda", "Restoranda"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l008", "level": "a2",
+      "sentence": "Chtěl bych si objednat polévku a salát, prosím.",
+      "translation": "Men sho'rva va salat buyurtma qilmoqchiman, iltimos.",
+      "question": "U nima buyurtma qilmoqchi?",
+      "options": ["Faqat sho'rva", "Faqat salat", "Sho'rva va salat", "Go'sht"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "l009", "level": "a2",
+      "sentence": "Příští týden pojedeme na hory lyžovat.",
+      "translation": "Kelasi hafta biz tog'larga chang'i uchgani boramiz.",
+      "question": "Ular qachon tog'larga boradi?",
+      "options": ["Bu hafta", "Kelasi hafta", "Kecha", "Bugun"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l010", "level": "a2",
+      "sentence": "Můj bratr pracuje jako lékař v nemocnici.",
+      "translation": "Mening akam kasalxonada shifokor bo'lib ishlaydi.",
+      "question": "Akasi qayerda ishlaydi?",
+      "options": ["Maktabda", "Kasalxonada", "Bankda", "Do'konda"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l011", "level": "b1",
+      "sentence": "Kdybych měl víc času, naučil bych se hrát na kytaru.",
+      "translation": "Agar ko'proq vaqtim bo'lganida, gitara chalishni o'rganardim.",
+      "question": "Gap nima haqida?",
+      "options": ["U gitara chaladi", "U vaqti bo'lsa gitara chalishni o'rganardi", "U gitara sotib oldi", "U gitara chalishni yaxshi ko'radi"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l012", "level": "b1",
+      "sentence": "Ačkoliv jsem unavený, musím dokončit tento projekt do zítřka.",
+      "translation": "Garchi charchagan bo'lsam ham, bu loyihani ertangacha tugatishim kerak.",
+      "question": "U nima qilishi kerak?",
+      "options": ["Dam olishi kerak", "Loyihani tugatishi kerak", "Yangi loyiha boshlashi kerak", "Uxlashi kerak"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l013", "level": "b1",
+      "sentence": "Vzhledem k počasí jsme se rozhodli zůstat doma.",
+      "translation": "Ob-havoni hisobga olib, biz uyda qolishga qaror qildik.",
+      "question": "Nima sababdan ular uyda qolishdi?",
+      "options": ["Charchaganlari uchun", "Ob-havo sababli", "Pul yo'qligi uchun", "Kasal bo'lganlari uchun"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l014", "level": "b2",
+      "sentence": "Nejenže přišel pozdě, ale také zapomněl důležité dokumenty.",
+      "translation": "U nafaqat kech keldi, balki muhim hujjatlarni ham unutdi.",
+      "question": "Nima sodir bo'ldi?",
+      "options": ["U faqat kech keldi", "U faqat hujjatlarni unutdi", "U kech keldi va hujjatlarni unutdi", "Hech nima bo'lmadi"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "l015", "level": "b2",
+      "sentence": "Na rozdíl od minulého roku letos prodeje výrazně vzrostly.",
+      "translation": "O'tgan yildan farqli o'laroq, bu yil savdo sezilarli darajada o'sdi.",
+      "question": "Bu yil savdo qanday o'zgardi?",
+      "options": ["Kamaydi", "O'zgarmadi", "Sezilarli o'sdi", "Yo'qoldi"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "l016", "level": "c1",
+      "sentence": "I přesto, že měl všechny argumenty proti sobě, nakonec svého cíle dosáhl.",
+      "translation": "Garchi barcha dalillar unga qarshi bo'lsa ham, oxir-oqibat maqsadiga erishdi.",
+      "question": "Natijada nima bo'ldi?",
+      "options": ["U taslim bo'ldi", "U maqsadiga erishdi", "U bahsni yutqazdi", "Hech narsa o'zgarmadi"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "l017", "level": "c1",
+      "sentence": "Vzhledem k tomu, že situace se neustále vyvíjí, je třeba zachovat flexibilitu.",
+      "translation": "Vaziyat doimo rivojlanayotganini hisobga olib, moslashuvchanlikni saqlash kerak.",
+      "question": "Nima saqlanishi kerak?",
+      "options": ["Qat'iylik", "Moslashuvchanlik", "Sukunat", "Tezlik"],
+      "correctAnswer": 1
+    }
+  ]
+}

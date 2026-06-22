@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>CzechMaster — Chex tilini onlayn o'rganing | Bepul A1-C1 kurs</title>
+<meta name="description" content="CzechMaster — chex tilini noldan C1 darajasigacha bepul o'rganing. Grammatika, lug'at, flashcards, testlar va interaktiv mashqlar bitta platformada.">
+<meta name="keywords" content="chex tili, chex tilini o'rganish, chехский язык, czech language, online kurs, A1 A2 B1 B2 C1">
+<meta name="author" content="CzechMaster">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://czechmaster.github.io/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="CzechMaster — Chex tilini onlayn o'rganing">
+<meta property="og:description" content="A1 dan C1 gacha bepul, professional chex tili o'quv platformasi.">
+<meta property="og:url" content="https://czechmaster.github.io/">
+<meta property="og:locale" content="uz_UZ">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CzechMaster — Chex tilini onlayn o'rganing">
+<meta name="twitter:description" content="A1 dan C1 gacha bepul, professional chex tili o'quv platformasi.">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2563EB">
+<link rel="apple-touch-icon" href="images/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="CzechMaster">
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<!-- Fonts (preconnect for performance) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/lesson.css">
+
+<!-- Structured Data (SEO) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "CzechMaster",
+  "description": "Chex tilini noldan o'rganish uchun bepul onlayn platforma",
+  "url": "https://czechmaster.github.io/",
+  "sameAs": []
+}
+</script>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Asosiy kontentga o'tish</a>
+
+<!-- Page Loader -->
+<div class="page-loader" data-page-loader>
+  <div class="spinner-lg"></div>
+  <span class="text-secondary text-sm">CzechMaster yuklanmoqda...</span>
+</div>
+
+<div id="app">
+
+  <!-- Header -->
+  <header class="app-header">
+    <button class="icon-btn menu-toggle" data-menu-toggle aria-label="Menyuni ochish">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M2 5a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm0 5a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm1 4a1 1 0 100 2h14a1 1 0 100-2H3z" clip-rule="evenodd"/></svg>
+    </button>
+
+    <a href="#dashboard" class="header-logo">
+      <span class="header-logo-icon">🇨🇿</span>
+      <span class="header-logo-text">Czech<span>Master</span></span>
+    </a>
+
+    <div class="header-search">
+      <svg class="header-search-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.45 4.39l3.08 3.08a.75.75 0 11-1.06 1.06l-3.08-3.08A7 7 0 012 9z" clip-rule="evenodd"/></svg>
+      <input type="search" class="header-search-input" placeholder="Dars yoki so'z qidirish..." data-search-input aria-label="Qidirish" autocomplete="off">
+      <span class="header-search-shortcut">⌘K</span>
+      <div class="search-results" data-search-results role="listbox"></div>
+    </div>
+
+    <div class="header-actions">
+      <button class="icon-btn theme-toggle" data-theme-toggle aria-label="Temani almashtirish" data-tooltip="Tema">
+        <svg class="icon-sun" viewBox="0 0 20 20" fill="currentColor" width="20" height="20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-1.05-5.66a1 1 0 011.41 0l.71.71a1 1 0 01-1.41 1.41l-.71-.71a1 1 0 010-1.41zm-9.9 0a1 1 0 000 1.41l.71.71a1 1 0 001.41-1.41l-.71-.71a1 1 0 00-1.41 0zM3 9a1 1 0 100 2h1a1 1 0 100-2H3zm14 0a1 1 0 100 2h1a1 1 0 100-2h-1zM6.34 14.66a1 1 0 00-1.41 1.41l.71.71a1 1 0 001.41-1.41l-.71-.71zm8.32 0l-.71.71a1 1 0 001.41 1.41l.71-.71a1 1 0 00-1.41-1.41zM10 16a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1z"/></svg>
+        <svg class="icon-moon" viewBox="0 0 20 20" fill="currentColor" width="20" height="20" style="display:none"><path d="M17.3 13.6a8 8 0 01-10.9-10.9 1 1 0 00-1.2-1.4A10 10 0 1018.7 14.8a1 1 0 00-1.4-1.2z"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Bildirishnomalar" data-tooltip="Bildirishnomalar">
+        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a6 6 0 00-6 6c0 3.6-1.5 5-1.5 5h15S16 11.6 16 8a6 6 0 00-6-6zM8.3 17a1.7 1.7 0 003.4 0H8.3z"/></svg>
+      </button>
+      <div class="dropdown">
+        <div class="user-avatar" data-user-menu-toggle>👤</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="app-layout">
+
+    <div class="sidebar-overlay" data-sidebar-overlay></div>
+
+    <!-- Sidebar -->
+    <aside class="app-sidebar" id="sidebar">
+      <nav class="sidebar-nav" data-sidebar-nav aria-label="Asosiy navigatsiya">
+        <!-- JS orqali to'ldiriladi -->
+      </nav>
+      <div class="sidebar-xp" data-sidebar-xp>
+        <!-- JS orqali to'ldiriladi -->
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <div class="main-wrapper">
+      <main class="main-content" id="main-content" data-main-content>
+        <!-- App.js tomonidan to'ldiriladi -->
+      </main>
+    </div>
+  </div>
+
+  <!-- Mobile Bottom Nav -->
+  <nav class="mobile-nav" aria-label="Mobil navigatsiya">
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item active" data-mobile-route="dashboard">
+        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.5 2.6a1 1 0 00-1 0L3 6.8V17a1 1 0 001 1h4a1 1 0 001-1v-4h2v4a1 1 0 001 1h4a1 1 0 001-1V6.8l-6.5-4.2z"/></svg>
+        <span class="mobile-nav-label">Bosh sahifa</span>
+      </li>
+      <li class="mobile-nav-item" data-mobile-route="lessons">
+        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M9 4.8A6.5 6.5 0 003 3v11.5a5.5 5.5 0 016 1V4.8zM11 4.8v10.7a5.5 5.5 0 016-1V3a6.5 6.5 0 00-6 1.8z"/></svg>
+        <span class="mobile-nav-label">Darslar</span>
+      </li>
+      <li class="mobile-nav-item" data-mobile-route="flashcards">
+        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V8.4a2 2 0 00-.6-1.4l-4.4-4.4A2 2 0 0010.6 2H5a2 2 0 00-2 1z"/></svg>
+        <span class="mobile-nav-label">Kartalar</span>
+      </li>
+      <li class="mobile-nav-item" data-mobile-route="progress">
+        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M3 13a1 1 0 011-1h1a1 1 0 011 1v4a1 1 0 01-1 1H4a1 1 0 01-1-1v-4zM9 7a1 1 0 011-1h1a1 1 0 011 1v10a1 1 0 01-1 1h-1a1 1 0 01-1-1V7zM15 4a1 1 0 011-1h1a1 1 0 011 1v13a1 1 0 01-1 1h-1a1 1 0 01-1-1V4z"/></svg>
+        <span class="mobile-nav-label">Progress</span>
+      </li>
+    </ul>
+  </nav>
+
+</div>
+
+<!-- Scripts -->
+<script src="js/theme.js"></script>
+<script src="js/toast.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/achievements.js"></script>
+<script src="js/search.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/flashcard.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/listening.js"></script>
+<script src="js/speaking.js"></script>
+<script src="js/writing.js"></script>
+<script src="js/certificate.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

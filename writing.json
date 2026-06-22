@@ -1,0 +1,19 @@
+{
+  "exercises": [
+    { "id": "w001", "level": "a1", "type": "translate", "prompt": "Quyidagi gapni chex tiliga tarjima qiling:", "source": "Mening ismim Anna.", "acceptedAnswers": ["Jmenuji se Anna.", "Jmenuji se Anna"], "hint": "Jmenuji se ... fe'lidan foydalaning" },
+    { "id": "w002", "level": "a1", "type": "translate", "prompt": "Quyidagi gapni chex tiliga tarjima qiling:", "source": "Men chex tilini o'rganaman.", "acceptedAnswers": ["Učím se česky.", "Učím se česky", "Studuji češtinu.", "Studuji češtinu"], "hint": "Učit se yoki studovat fe'lidan foydalaning" },
+    { "id": "w003", "level": "a1", "type": "fillsentence", "prompt": "Bo'sh joyga to'g'ri so'zni yozing:", "source": "___ den! Jak se máš?", "acceptedAnswers": ["Dobrý"], "hint": "Rasmiy salomlashish" },
+    { "id": "w004", "level": "a1", "type": "translate", "prompt": "Quyidagi gapni chex tiliga tarjima qiling:", "source": "Rahmat katta.", "acceptedAnswers": ["Děkuji mockrát.", "Děkuji mockrát", "Mockrát děkuji.", "Mockrát děkuji"], "hint": "Děkuji + mockrát" },
+    { "id": "w005", "level": "a1", "type": "fillsentence", "prompt": "Bo'sh joyga to'g'ri so'zni yozing:", "source": "Mám ___ roky. (Men yigirma yoshdaman)", "acceptedAnswers": ["dvacet"], "hint": "20 soni" },
+    { "id": "w006", "level": "a2", "type": "translate", "prompt": "Quyidagi gapni chex tiliga tarjima qiling:", "source": "Men har kuni ishga boraman.", "acceptedAnswers": ["Každý den chodím do práce.", "Každý den chodím do práce"], "hint": "Chodit fe'li — takroriy harakat" },
+    { "id": "w007", "level": "a2", "type": "translate", "prompt": "Quyidagi gapni chex tiliga tarjima qiling:", "source": "Bu mashina qancha turadi?", "acceptedAnswers": ["Kolik stojí to auto?", "Kolik stojí to auto", "Kolik to auto stojí?", "Kolik to auto stojí"], "hint": "Kolik stojí...?" },
+    { "id": "w008", "level": "a2", "type": "fillsentence", "prompt": "Bo'sh joyga to'g'ri fe'l shaklini yozing:", "source": "My ___ česky. (biz o'rganamiz)", "acceptedAnswers": ["studujeme", "učíme se"], "hint": "My uchun studovat fe'lining shakli" },
+    { "id": "w009", "level": "a2", "type": "translate", "prompt": "Quyidagi gapni chex tiliga tarjima qiling:", "source": "Bugun ob-havo issiq.", "acceptedAnswers": ["Dnes je teplo.", "Dnes je teplo"], "hint": "Je teplo — issiq" },
+    { "id": "w010", "level": "b1", "type": "translate", "prompt": "Quyidagi gapni chex tiliga tarjima qiling:", "source": "Kecha men kinoteatrda edim.", "acceptedAnswers": ["Včera jsem byl v kině.", "Včera jsem byl v kině", "Včera jsem byla v kině.", "Včera jsem byla v kině"], "hint": "O'tgan zamon: byl/byla + jsem" },
+    { "id": "w011", "level": "b1", "type": "translate", "prompt": "Quyidagi gapni chex tiliga tarjima qiling:", "source": "Ertaga men ishlayman.", "acceptedAnswers": ["Zítra budu pracovat.", "Zítra budu pracovat"], "hint": "Kelajak zamon: budu + infinitiv" },
+    { "id": "w012", "level": "b1", "type": "freeform", "prompt": "O'zingiz haqingizda 2-3 gap yozing: ismingiz, qayerdan ekanligingiz va nima qilishni yaxshi ko'rasiz.", "minWords": 8, "hint": "Jmenuji se..., jsem z..., rád/ráda..." },
+    { "id": "w013", "level": "b2", "type": "translate", "prompt": "Quyidagi gapni chex tiliga tarjima qiling:", "source": "Men kofe xohlardim, iltimos.", "acceptedAnswers": ["Chtěl bych kávu, prosím.", "Chtěl bych kávu, prosím", "Chtěla bych kávu, prosím.", "Chtěla bych kávu, prosím"], "hint": "Shartli mayl: chtěl/chtěla bych" },
+    { "id": "w014", "level": "b2", "type": "freeform", "prompt": "Bo'sh vaqtingizda nima qilishni yoqtirishingiz haqida 3-4 gap yozing.", "minWords": 12, "hint": "Rád/ráda dělám..., Ve volném čase..." },
+    { "id": "w015", "level": "c1", "type": "freeform", "prompt": "Ekologiya muammolari haqida o'z fikringizni 4-5 gapda yozing, kamida bitta murakkab bog'lovchidan (protože, ačkoliv, vzhledem k tomu) foydalaning.", "minWords": 20, "hint": "Podle mě..., Vzhledem k tomu, že..." }
+  ]
+}

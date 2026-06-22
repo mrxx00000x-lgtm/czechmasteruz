@@ -1,0 +1,21 @@
+{
+  "exercises": [
+    { "id": "s001", "level": "a1", "czech": "Dobrý den", "phonetic": "[dob-ri den]", "translation": "Xayrli kun" },
+    { "id": "s002", "level": "a1", "czech": "Děkuji", "phonetic": "[dye-ku-yi]", "translation": "Rahmat" },
+    { "id": "s003", "level": "a1", "czech": "Prosím", "phonetic": "[pro-seem]", "translation": "Iltimos" },
+    { "id": "s004", "level": "a1", "czech": "Jmenuji se Anna", "phonetic": "[yme-nu-yi se a-na]", "translation": "Mening ismim Anna" },
+    { "id": "s005", "level": "a1", "czech": "Na shledanou", "phonetic": "[na skhle-da-nou]", "translation": "Ko'rishguncha" },
+    { "id": "s006", "level": "a1", "czech": "Řeka", "phonetic": "[rzhe-ka]", "translation": "Daryo" },
+    { "id": "s007", "level": "a2", "czech": "Co děláš?", "phonetic": "[tso dye-lash]", "translation": "Nima qilyapsan?" },
+    { "id": "s008", "level": "a2", "czech": "Kolik to stojí?", "phonetic": "[ko-lik to sto-yee]", "translation": "Bu qancha turadi?" },
+    { "id": "s009", "level": "a2", "czech": "Mám rád kávu", "phonetic": "[mam rad ka-vu]", "translation": "Men kofeni yaxshi ko'raman" },
+    { "id": "s010", "level": "a2", "czech": "Kde je nádraží?", "phonetic": "[gde ye na-dra-zhee]", "translation": "Vokzal qayerda?" },
+    { "id": "s011", "level": "b1", "czech": "Včera jsem byl v kině", "phonetic": "[vche-ra ysem bil v ki-nye]", "translation": "Kecha men kinoteatrda edim" },
+    { "id": "s012", "level": "b1", "czech": "Musím jít domů", "phonetic": "[mu-seem yeet do-moo]", "translation": "Men uyga ketishim kerak" },
+    { "id": "s013", "level": "b1", "czech": "Zítra budu pracovat", "phonetic": "[zeet-ra bu-du pra-tso-vat]", "translation": "Ertaga men ishlayman" },
+    { "id": "s014", "level": "b2", "czech": "Chtěl bych kávu, prosím", "phonetic": "[khtyel bikh ka-vu pro-seem]", "translation": "Men kofe xohlardim, iltimos" },
+    { "id": "s015", "level": "b2", "czech": "Na rozdíl od minulého roku", "phonetic": "[na roz-deel od mi-nu-le-ho ro-ku]", "translation": "O'tgan yildan farqli o'laroq" },
+    { "id": "s016", "level": "c1", "czech": "Mít hlavu v oblacích", "phonetic": "[meet hla-vu v ob-la-tseekh]", "translation": "Xayolparast bo'lmoq (idioma)" },
+    { "id": "s017", "level": "c1", "czech": "Vzhledem k tomu, že situace se vyvíjí", "phonetic": "[vzhle-dem k to-mu zhe si-tu-a-tse se vi-vee-yee]", "translation": "Vaziyat rivojlanayotganini hisobga olib" }
+  ]
+}

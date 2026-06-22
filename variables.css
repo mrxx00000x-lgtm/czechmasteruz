@@ -1,0 +1,481 @@
+/**
+ * CzechMaster — Design Token System
+ * ===================================
+ * Barcha rang, font, spacing, shadow va animation o'zgaruvchilari
+ * Bu fayl butun loyiha uchun yagona haqiqat manbai (single source of truth)
+ *
+ * Tuzilma:
+ *   1. Color Palette (Light & Dark)
+ *   2. Typography
+ *   3. Spacing & Layout
+ *   4. Border Radius
+ *   5. Shadows
+ *   6. Transitions & Animations
+ *   7. Z-Index Scale
+ *   8. Breakpoints (CSS custom media — JS da ham ishlatiladi)
+ */
+
+/* ============================================================
+   1. COLOR PALETTE — LIGHT THEME (Default)
+   ============================================================ */
+:root {
+  /* === Brand Colors === */
+  --color-brand-50:  #EFF6FF;
+  --color-brand-100: #DBEAFE;
+  --color-brand-200: #BFDBFE;
+  --color-brand-300: #93C5FD;
+  --color-brand-400: #60A5FA;
+  --color-brand-500: #3B82F6;
+  --color-brand-600: #2563EB;   /* Primary */
+  --color-brand-700: #1D4ED8;
+  --color-brand-800: #1E40AF;
+  --color-brand-900: #1E3A8A;
+  --color-brand-950: #172554;
+
+  /* === Accent (Czech flag red) === */
+  --color-accent-50:  #FFF1F2;
+  --color-accent-100: #FFE4E6;
+  --color-accent-200: #FECDD3;
+  --color-accent-300: #FDA4AF;
+  --color-accent-400: #FB7185;
+  --color-accent-500: #F43F5E;
+  --color-accent-600: #E11D48;   /* Accent Primary */
+  --color-accent-700: #BE123C;
+  --color-accent-800: #9F1239;
+  --color-accent-900: #881337;
+
+  /* === Success === */
+  --color-success-50:  #F0FDF4;
+  --color-success-100: #DCFCE7;
+  --color-success-300: #86EFAC;
+  --color-success-500: #22C55E;
+  --color-success-600: #16A34A;
+  --color-success-700: #15803D;
+
+  /* === Warning === */
+  --color-warning-50:  #FFFBEB;
+  --color-warning-100: #FEF3C7;
+  --color-warning-300: #FCD34D;
+  --color-warning-500: #F59E0B;
+  --color-warning-600: #D97706;
+  --color-warning-700: #B45309;
+
+  /* === Error === */
+  --color-error-50:  #FEF2F2;
+  --color-error-100: #FEE2E2;
+  --color-error-300: #FCA5A5;
+  --color-error-500: #EF4444;
+  --color-error-600: #DC2626;
+  --color-error-700: #B91C1C;
+
+  /* === Neutral (Light) === */
+  --color-neutral-0:   #FFFFFF;
+  --color-neutral-50:  #F8FAFC;
+  --color-neutral-100: #F1F5F9;
+  --color-neutral-150: #E9EFF6;
+  --color-neutral-200: #E2E8F0;
+  --color-neutral-300: #CBD5E1;
+  --color-neutral-400: #94A3B8;
+  --color-neutral-500: #64748B;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1E293B;
+  --color-neutral-900: #0F172A;
+  --color-neutral-950: #020617;
+
+  /* === Semantic Tokens (Light) === */
+  --bg-primary:        var(--color-neutral-0);
+  --bg-secondary:      var(--color-neutral-50);
+  --bg-tertiary:       var(--color-neutral-100);
+  --bg-elevated:       var(--color-neutral-0);
+  --bg-overlay:        rgba(15, 23, 42, 0.6);
+  --bg-glass:          rgba(255, 255, 255, 0.8);
+  --bg-glass-border:   rgba(255, 255, 255, 0.5);
+
+  --text-primary:      var(--color-neutral-900);
+  --text-secondary:    var(--color-neutral-600);
+  --text-tertiary:     var(--color-neutral-400);
+  --text-inverse:      var(--color-neutral-0);
+  --text-brand:        var(--color-brand-600);
+  --text-accent:       var(--color-accent-600);
+
+  --border-subtle:     var(--color-neutral-150);
+  --border-default:    var(--color-neutral-200);
+  --border-strong:     var(--color-neutral-300);
+  --border-brand:      var(--color-brand-300);
+  --border-focus:      var(--color-brand-500);
+
+  --surface-card:      var(--color-neutral-0);
+  --surface-sidebar:   var(--color-neutral-50);
+  --surface-header:    rgba(255, 255, 255, 0.9);
+  --surface-modal:     var(--color-neutral-0);
+
+  /* === Interactive States === */
+  --interactive-primary:       var(--color-brand-600);
+  --interactive-primary-hover: var(--color-brand-700);
+  --interactive-primary-active:var(--color-brand-800);
+  --interactive-primary-text:  var(--color-neutral-0);
+
+  --interactive-secondary:       var(--color-neutral-100);
+  --interactive-secondary-hover: var(--color-neutral-200);
+  --interactive-secondary-text:  var(--color-neutral-800);
+
+  --interactive-danger:       var(--color-accent-600);
+  --interactive-danger-hover: var(--color-accent-700);
+  --interactive-danger-text:  var(--color-neutral-0);
+
+  --interactive-success:       var(--color-success-600);
+  --interactive-success-hover: var(--color-success-700);
+  --interactive-success-text:  var(--color-neutral-0);
+
+  /* === Level Colors === */
+  --level-a1: #10B981;   /* Emerald — Beginner */
+  --level-a2: #3B82F6;   /* Blue — Elementary */
+  --level-b1: #8B5CF6;   /* Violet — Intermediate */
+  --level-b2: #F59E0B;   /* Amber — Upper Intermediate */
+  --level-c1: #EF4444;   /* Red — Advanced */
+
+  --level-a1-bg: #D1FAE5;
+  --level-a2-bg: #DBEAFE;
+  --level-b1-bg: #EDE9FE;
+  --level-b2-bg: #FEF3C7;
+  --level-c1-bg: #FEE2E2;
+
+  /* === Progress Colors === */
+  --progress-track:     var(--color-neutral-200);
+  --progress-fill:      var(--color-brand-500);
+  --progress-completed: var(--color-success-500);
+
+  /* === Code / Highlight === */
+  --code-bg:       var(--color-neutral-100);
+  --code-text:     var(--color-accent-700);
+  --code-border:   var(--color-neutral-200);
+
+  /* === Gradient === */
+  --gradient-brand:     linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  --gradient-accent:    linear-gradient(135deg, #E11D48 0%, #9F1239 100%);
+  --gradient-success:   linear-gradient(135deg, #22C55E 0%, #15803D 100%);
+  --gradient-hero:      linear-gradient(135deg, #1E3A8A 0%, #312E81 50%, #1E1B4B 100%);
+  --gradient-card:      linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(241,245,249,0.8) 100%);
+  --gradient-level-a1:  linear-gradient(135deg, #10B981 0%, #059669 100%);
+  --gradient-level-a2:  linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+  --gradient-level-b1:  linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
+  --gradient-level-b2:  linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+  --gradient-level-c1:  linear-gradient(135deg, #EF4444 0%, #DC2626 100%);
+}
+
+/* ============================================================
+   1b. COLOR PALETTE — DARK THEME
+   ============================================================ */
+[data-theme="dark"] {
+  /* === Semantic Tokens (Dark) === */
+  --bg-primary:        #0F172A;
+  --bg-secondary:      #1E293B;
+  --bg-tertiary:       #263548;
+  --bg-elevated:       #1E293B;
+  --bg-overlay:        rgba(0, 0, 0, 0.7);
+  --bg-glass:          rgba(30, 41, 59, 0.85);
+  --bg-glass-border:   rgba(255, 255, 255, 0.08);
+
+  --text-primary:      #F1F5F9;
+  --text-secondary:    #94A3B8;
+  --text-tertiary:     #64748B;
+  --text-inverse:      #0F172A;
+  --text-brand:        #60A5FA;
+  --text-accent:       #FB7185;
+
+  --border-subtle:     rgba(255, 255, 255, 0.05);
+  --border-default:    rgba(255, 255, 255, 0.08);
+  --border-strong:     rgba(255, 255, 255, 0.15);
+  --border-brand:      rgba(96, 165, 250, 0.4);
+  --border-focus:      var(--color-brand-400);
+
+  --surface-card:      #1E293B;
+  --surface-sidebar:   #131f30;
+  --surface-header:    rgba(15, 23, 42, 0.92);
+  --surface-modal:     #1E293B;
+
+  /* === Interactive States (Dark) === */
+  --interactive-primary:       var(--color-brand-500);
+  --interactive-primary-hover: var(--color-brand-400);
+  --interactive-primary-active:var(--color-brand-600);
+  --interactive-primary-text:  var(--color-neutral-0);
+
+  --interactive-secondary:       rgba(255, 255, 255, 0.07);
+  --interactive-secondary-hover: rgba(255, 255, 255, 0.12);
+  --interactive-secondary-text:  var(--color-neutral-100);
+
+  /* === Level Colors (Dark) === */
+  --level-a1-bg: rgba(16, 185, 129, 0.15);
+  --level-a2-bg: rgba(59, 130, 246, 0.15);
+  --level-b1-bg: rgba(139, 92, 246, 0.15);
+  --level-b2-bg: rgba(245, 158, 11, 0.15);
+  --level-c1-bg: rgba(239, 68, 68, 0.15);
+
+  /* === Progress (Dark) === */
+  --progress-track: rgba(255, 255, 255, 0.1);
+
+  /* === Code (Dark) === */
+  --code-bg:       rgba(255, 255, 255, 0.06);
+  --code-text:     #FDA4AF;
+  --code-border:   rgba(255, 255, 255, 0.1);
+
+  /* === Gradient (Dark) === */
+  --gradient-card: linear-gradient(145deg, rgba(30,41,59,1) 0%, rgba(19,31,48,0.9) 100%);
+}
+
+/* ============================================================
+   2. TYPOGRAPHY
+   ============================================================ */
+:root {
+  /* === Font Families === */
+  --font-display:  'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body:     'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:     'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+  --font-czech:    'Noto Serif', Georgia, 'Times New Roman', serif; /* Chex matnlari uchun */
+
+  /* === Font Sizes (Fluid) === */
+  --text-xs:   clamp(0.625rem,  1.5vw, 0.75rem);    /* 10–12px */
+  --text-sm:   clamp(0.75rem,   1.8vw, 0.875rem);   /* 12–14px */
+  --text-base: clamp(0.875rem,  2vw,   1rem);        /* 14–16px */
+  --text-md:   clamp(1rem,      2.2vw, 1.125rem);   /* 16–18px */
+  --text-lg:   clamp(1.125rem,  2.5vw, 1.25rem);    /* 18–20px */
+  --text-xl:   clamp(1.25rem,   3vw,   1.5rem);     /* 20–24px */
+  --text-2xl:  clamp(1.5rem,    3.5vw, 1.875rem);   /* 24–30px */
+  --text-3xl:  clamp(1.875rem,  4vw,   2.25rem);    /* 30–36px */
+  --text-4xl:  clamp(2.25rem,   5vw,   3rem);       /* 36–48px */
+  --text-5xl:  clamp(3rem,      6vw,   3.75rem);    /* 48–60px */
+  --text-6xl:  clamp(3.75rem,   7vw,   4.5rem);     /* 60–72px */
+
+  /* === Font Weights === */
+  --weight-thin:       100;
+  --weight-light:      300;
+  --weight-regular:    400;
+  --weight-medium:     500;
+  --weight-semibold:   600;
+  --weight-bold:       700;
+  --weight-extrabold:  800;
+  --weight-black:      900;
+
+  /* === Line Heights === */
+  --leading-none:      1;
+  --leading-tight:     1.25;
+  --leading-snug:      1.375;
+  --leading-normal:    1.5;
+  --leading-relaxed:   1.625;
+  --leading-loose:     2;
+
+  /* === Letter Spacing === */
+  --tracking-tighter: -0.05em;
+  --tracking-tight:   -0.025em;
+  --tracking-normal:   0em;
+  --tracking-wide:     0.025em;
+  --tracking-wider:    0.05em;
+  --tracking-widest:   0.1em;
+}
+
+/* ============================================================
+   3. SPACING & LAYOUT
+   ============================================================ */
+:root {
+  /* === Base Spacing (4px grid) === */
+  --space-0:    0;
+  --space-px:   1px;
+  --space-0-5:  0.125rem;  /* 2px */
+  --space-1:    0.25rem;   /* 4px */
+  --space-1-5:  0.375rem;  /* 6px */
+  --space-2:    0.5rem;    /* 8px */
+  --space-2-5:  0.625rem;  /* 10px */
+  --space-3:    0.75rem;   /* 12px */
+  --space-3-5:  0.875rem;  /* 14px */
+  --space-4:    1rem;      /* 16px */
+  --space-5:    1.25rem;   /* 20px */
+  --space-6:    1.5rem;    /* 24px */
+  --space-7:    1.75rem;   /* 28px */
+  --space-8:    2rem;      /* 32px */
+  --space-9:    2.25rem;   /* 36px */
+  --space-10:   2.5rem;    /* 40px */
+  --space-11:   2.75rem;   /* 44px */
+  --space-12:   3rem;      /* 48px */
+  --space-14:   3.5rem;    /* 56px */
+  --space-16:   4rem;      /* 64px */
+  --space-20:   5rem;      /* 80px */
+  --space-24:   6rem;      /* 96px */
+  --space-28:   7rem;      /* 112px */
+  --space-32:   8rem;      /* 128px */
+
+  /* === Layout === */
+  --sidebar-width:       260px;
+  --sidebar-width-sm:    72px;
+  --header-height:       64px;
+  --mobile-nav-height:   64px;
+  --content-max-width:   1200px;
+  --lesson-max-width:    800px;
+  --card-min-width:      280px;
+
+  /* === Container Padding === */
+  --container-px:        clamp(var(--space-4), 4vw, var(--space-8));
+  --section-py:          clamp(var(--space-10), 5vw, var(--space-16));
+}
+
+/* ============================================================
+   4. BORDER RADIUS
+   ============================================================ */
+:root {
+  --radius-none:   0;
+  --radius-sm:     0.25rem;   /* 4px */
+  --radius-md:     0.5rem;    /* 8px */
+  --radius-lg:     0.75rem;   /* 12px */
+  --radius-xl:     1rem;      /* 16px */
+  --radius-2xl:    1.5rem;    /* 24px */
+  --radius-3xl:    2rem;      /* 32px */
+  --radius-full:   9999px;
+
+  /* === Semantic === */
+  --radius-btn:    var(--radius-lg);
+  --radius-card:   var(--radius-xl);
+  --radius-input:  var(--radius-lg);
+  --radius-badge:  var(--radius-full);
+  --radius-modal:  var(--radius-2xl);
+  --radius-tooltip:var(--radius-md);
+}
+
+/* ============================================================
+   5. SHADOWS
+   ============================================================ */
+:root {
+  /* === Light Mode Shadows === */
+  --shadow-xs:   0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm:   0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md:   0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-lg:   0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  --shadow-xl:   0 20px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.04);
+  --shadow-2xl:  0 25px 50px rgba(0, 0, 0, 0.15);
+  --shadow-inner:inset 0 2px 4px rgba(0, 0, 0, 0.06);
+
+  /* === Brand Shadows === */
+  --shadow-brand:   0 4px 14px rgba(37, 99, 235, 0.3);
+  --shadow-brand-lg:0 8px 24px rgba(37, 99, 235, 0.35);
+  --shadow-accent:  0 4px 14px rgba(225, 29, 72, 0.3);
+  --shadow-success: 0 4px 14px rgba(22, 163, 74, 0.3);
+
+  /* === Card Shadows === */
+  --shadow-card:     0 1px 3px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.04);
+  --shadow-card-hover: 0 8px 20px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.04);
+}
+
+[data-theme="dark"] {
+  --shadow-xs:   0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm:   0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md:   0 4px 6px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-lg:   0 10px 15px rgba(0, 0, 0, 0.5), 0 4px 6px rgba(0, 0, 0, 0.3);
+  --shadow-xl:   0 20px 25px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.3);
+  --shadow-2xl:  0 25px 50px rgba(0, 0, 0, 0.6);
+  --shadow-brand:   0 4px 14px rgba(59, 130, 246, 0.4);
+  --shadow-brand-lg:0 8px 24px rgba(59, 130, 246, 0.5);
+  --shadow-card:     0 1px 3px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.06);
+  --shadow-card-hover: 0 8px 20px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.08);
+}
+
+/* ============================================================
+   6. TRANSITIONS & ANIMATIONS
+   ============================================================ */
+:root {
+  /* === Duration === */
+  --duration-instant:  50ms;
+  --duration-fast:     100ms;
+  --duration-normal:   200ms;
+  --duration-slow:     300ms;
+  --duration-slower:   400ms;
+  --duration-slowest:  600ms;
+  --duration-page:     500ms;
+
+  /* === Easing === */
+  --ease-linear:    linear;
+  --ease-in:        cubic-bezier(0.4, 0, 1, 1);
+  --ease-out:       cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out:    cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce:    cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-spring:    cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* === Transition Presets === */
+  --transition-fast:    all var(--duration-fast) var(--ease-in-out);
+  --transition-normal:  all var(--duration-normal) var(--ease-in-out);
+  --transition-slow:    all var(--duration-slow) var(--ease-in-out);
+  --transition-color:   color var(--duration-normal) var(--ease-in-out),
+                        background-color var(--duration-normal) var(--ease-in-out),
+                        border-color var(--duration-normal) var(--ease-in-out);
+  --transition-transform: transform var(--duration-normal) var(--ease-out);
+  --transition-shadow:  box-shadow var(--duration-normal) var(--ease-in-out);
+}
+
+/* ============================================================
+   7. Z-INDEX SCALE
+   ============================================================ */
+:root {
+  --z-below:      -1;
+  --z-base:        0;
+  --z-raised:     10;
+  --z-dropdown:   100;
+  --z-sticky:     200;
+  --z-overlay:    300;
+  --z-sidebar:    400;
+  --z-modal:      500;
+  --z-notification:600;
+  --z-tooltip:    700;
+  --z-top:        999;
+}
+
+/* ============================================================
+   8. COMPONENT-SPECIFIC TOKENS
+   ============================================================ */
+:root {
+  /* === Quiz === */
+  --quiz-option-bg:          var(--surface-card);
+  --quiz-option-border:      var(--border-default);
+  --quiz-option-hover-bg:    var(--color-brand-50);
+  --quiz-option-hover-border:var(--color-brand-300);
+  --quiz-correct-bg:         var(--color-success-50);
+  --quiz-correct-border:     var(--color-success-500);
+  --quiz-correct-text:       var(--color-success-700);
+  --quiz-wrong-bg:           var(--color-error-50);
+  --quiz-wrong-border:       var(--color-error-500);
+  --quiz-wrong-text:         var(--color-error-700);
+
+  /* === Flashcard === */
+  --flashcard-bg-front:  var(--gradient-brand);
+  --flashcard-bg-back:   linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+  --flashcard-radius:    var(--radius-2xl);
+
+  /* === Progress Bar === */
+  --progress-height:     8px;
+  --progress-radius:     var(--radius-full);
+
+  /* === Achievement Badge === */
+  --badge-size-sm:   36px;
+  --badge-size-md:   48px;
+  --badge-size-lg:   64px;
+  --badge-size-xl:   80px;
+}
+
+[data-theme="dark"] {
+  --quiz-option-hover-bg:    rgba(59, 130, 246, 0.1);
+  --quiz-correct-bg:         rgba(22, 163, 74, 0.1);
+  --quiz-correct-text:       var(--color-success-300);
+  --quiz-wrong-bg:           rgba(220, 38, 38, 0.1);
+  --quiz-wrong-text:         var(--color-error-300);
+}
+
+/* ============================================================
+   REDUCED MOTION — Accessibility
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast:     0ms;
+    --duration-normal:   0ms;
+    --duration-slow:     0ms;
+    --duration-slower:   0ms;
+    --duration-slowest:  0ms;
+    --duration-page:     0ms;
+  }
+}

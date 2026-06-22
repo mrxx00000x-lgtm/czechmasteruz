@@ -1,0 +1,105 @@
+{
+  "name": "CzechMaster — Chex tili o'quv platformasi",
+  "short_name": "CzechMaster",
+  "description": "Internetdagi eng yaxshi bepul Chex tili o'quv platformasi. A1 dan C1 gacha barcha darajalar.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2563EB",
+  "background_color": "#0F172A",
+  "lang": "uz",
+  "dir": "ltr",
+  "categories": ["education", "language"],
+  "icons": [
+    {
+      "src": "images/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot-desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "CzechMaster Dashboard"
+    },
+    {
+      "src": "images/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "CzechMaster Mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Darslar",
+      "short_name": "Darslar",
+      "description": "Darslarni ko'rish",
+      "url": "/index.html#lessons",
+      "icons": [{ "src": "images/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Flashcards",
+      "short_name": "Kartalar",
+      "description": "Flashcard mashqlari",
+      "url": "/index.html#flashcards",
+      "icons": [{ "src": "images/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Test",
+      "short_name": "Test",
+      "description": "Bilimni tekshirish",
+      "url": "/index.html#quiz",
+      "icons": [{ "src": "images/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}

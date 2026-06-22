@@ -1,0 +1,2422 @@
+{
+  "levels": [
+    {
+      "id": "a1",
+      "name": "A1 — Boshlang'ich",
+      "description": "Chex tilining asoslari: alifbo, salomlashish, oddiy gaplar",
+      "lessons": [
+        {
+          "id": "a1-01",
+          "title": "Chex alifbosi va talaffuz",
+          "description": "Chex alifbosidagi maxsus harflar (háček, čárka) va ularning talaffuzini o'rganamiz",
+          "icon": "🔤",
+          "category": "Talaffuz",
+          "duration": 15,
+          "wordCount": 8,
+          "sections": [
+            {
+              "title": "Chex alifbosi haqida",
+              "icon": "📖",
+              "content": "<p>Chex tili lotin alifbosiga asoslangan, ammo o'ziga xos maxsus belgilarga ega: <strong>háček</strong> (ˇ) va <strong>čárka</strong> (´). Bu belgilar harflarning talaffuzini o'zgartiradi.</p><p>Chex alifbosida 42 ta harf bor (lotincha 26 ta harfdan ko'p), chunki ko'plab harflar diakritik belgilar bilan birga keladi.</p>",
+              "keyPoint": "Háček (ˇ) — harf ustidagi \"qarg'a oyog'i\" belgisi, masalan: č, š, ž, ř. Čárka (´) — uzun unlini bildiradi: á, é, í, ó, ú, ý."
+            },
+            {
+              "title": "Maxsus harflar jadvali",
+              "icon": "📋",
+              "content": "<p>Quyidagi jadvalda eng muhim maxsus harflar va ularning taxminiy talaffuzi keltirilgan:</p>",
+              "table": {
+                "caption": "Chex tilidagi maxsus harflar",
+                "headers": ["Harf", "Nomi", "Talaffuz", "Misol"],
+                "rows": [
+                  [{"value": "č"}, "che s háčkem", "\"ch\" (chang)", "čaj (choy)"],
+                  [{"value": "š"}, "es s háčkem", "\"sh\" (shahar)", "škola (maktab)"],
+                  [{"value": "ž"}, "zet s háčkem", "\"j\" (frantsuzcha)", "žena (ayol)"],
+                  [{"value": "ř"}, "er s háčkem", "\"rzh\" (noyob tovush)", "řeka (daryo)"],
+                  [{"value": "ě"}, "e s háčkem", "\"ye\"", "měsíc (oy)"],
+                  [{"value": "á é í ó ú"}, "čárka", "uzun unli", "máma (oyi)"]
+                ]
+              },
+              "warning": "<strong>ř</strong> tovushi chex tilidagi eng qiyin tovush hisoblanadi — bu \"r\" va \"zh\" ning birikmasi. Mashq qilish uchun ko'p vaqt kerak bo'lishi mumkin, bu normal holat!"
+            },
+            {
+              "title": "Misollar bilan mashq",
+              "icon": "🎧",
+              "content": "<p>Quyidagi so'zlarni diqqat bilan tinglang va talaffuzga e'tibor bering:</p>",
+              "examples": [
+                { "czech": "Dobrý den", "translation": "Xayrli kun (rasmiy salom)", "note": "ý — uzun \"i\" tovushi" },
+                { "czech": "Děkuji", "translation": "Rahmat", "note": "ě — \"ye\" kabi talaffuz qilinadi" },
+                { "czech": "Prosím", "translation": "Iltimos", "note": "í — uzun \"i\" tovushi" },
+                { "czech": "Řeka", "translation": "Daryo", "note": "ř — maxsus tovush, \"rzh\"" },
+                { "czech": "Škola", "translation": "Maktab", "note": "š — \"sh\" kabi" }
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "fillblank",
+              "question": "Háček belgisi qaysi harf ustida bo'ladi? Masalan: ___",
+              "correctAnswer": ["č", "š", "ž"]
+            }
+          ],
+          "quiz": [
+            {
+              "id": "q1", "type": "single",
+              "question": "\"š\" harfi qanday talaffuz qilinadi?",
+              "options": ["\"s\" kabi", "\"sh\" kabi", "\"z\" kabi", "\"ch\" kabi"],
+              "correctAnswer": 1,
+              "explanation": "\"š\" harfi inglizcha \"sh\" tovushiga o'xshaydi, masalan \"shop\" so'zidagi kabi."
+            },
+            {
+              "id": "q2", "type": "truefalse",
+              "question": "Chex tilida \"čárka\" belgisi unlini qisqartiradi.",
+              "correctAnswer": false,
+              "explanation": "Aksincha, čárka (´) unlini uzaytiradi, masalan \"a\" → \"á\"."
+            },
+            {
+              "id": "q3", "type": "single",
+              "question": "\"Děkuji\" so'zi nimani anglatadi?",
+              "options": ["Salom", "Rahmat", "Iltimos", "Xayr"],
+              "correctAnswer": 1,
+              "explanation": "\"Děkuji\" — \"rahmat\" degan ma'noni bildiradi."
+            },
+            {
+              "id": "q4", "type": "single",
+              "question": "Chex tilidagi eng qiyin talaffuz qilinadigan harf qaysi?",
+              "options": ["á", "ř", "š", "ý"],
+              "correctAnswer": 1,
+              "explanation": "\"ř\" tovushi nodir bo'lib, faqat chex tilida uchraydi."
+            }
+          ]
+        },
+        {
+          "id": "a1-02",
+          "title": "Salomlashish va tanishish",
+          "description": "Rasmiy va norasmiy salomlashish iboralari, o'zingizni tanishtirish",
+          "icon": "👋",
+          "category": "Lug'at",
+          "duration": 20,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Salomlashish iboralari",
+              "icon": "👋",
+              "content": "<p>Chex tilida vaziyatga qarab turli xil salomlashish usullari mavjud. Rasmiy va norasmiy muloqotni farqlash juda muhim.</p>",
+              "table": {
+                "caption": "Salomlashish iboralari",
+                "headers": ["Chexcha", "O'zbekcha", "Qachon ishlatiladi"],
+                "rows": [
+                  ["Ahoj", "Salom / Xayr", "Do'stlar, norasmiy"],
+                  ["Dobrý den", "Xayrli kun", "Rasmiy, notanish odamlar"],
+                  ["Dobré ráno", "Xayrli tong", "Ertalab, rasmiy"],
+                  ["Dobrý večer", "Xayrli kech", "Kechqurun"],
+                  ["Na shledanou", "Ko'rishguncha", "Rasmiy xayrlashuv"],
+                  ["Čau", "Salom/Xayr", "Juda norasmiy, yoshlar"]
+                ]
+              },
+              "keyPoint": "Chex tilida \"siz\" (vy) va \"sen\" (ty) farqi ingliz tilidan farqli o'laroq juda muhim. Notanish kattalar bilan har doim \"vy\" dan foydalaning."
+            },
+            {
+              "title": "O'zingizni tanishtirish",
+              "icon": "🙋",
+              "content": "<p>O'zingizni tanishtirish uchun asosiy iboralar:</p>",
+              "examples": [
+                { "czech": "Jmenuji se Anna.", "translation": "Mening ismim Anna.", "note": "Jmenuji se — \"mening ismim\"" },
+                { "czech": "Jak se jmenujete?", "translation": "Ismingiz nima? (rasmiy)", "note": "Notanish kattalar uchun" },
+                { "czech": "Jak se jmenuješ?", "translation": "Ismingiz nima? (norasmiy)", "note": "Do'stlar, tengdoshlar uchun" },
+                { "czech": "Těší mě.", "translation": "Tanishganimdan xursandman.", "note": "Tanishuvdan keyin aytiladi" },
+                { "czech": "Odkud jste?", "translation": "Qayerdansiz?", "note": "Rasmiy savol" }
+              ]
+            },
+            {
+              "title": "Hol-ahvol so'rash",
+              "icon": "💬",
+              "content": "<p>Suhbatni davom ettirish uchun foydali iboralar:</p>",
+              "table": {
+                "headers": ["Savol", "Javob"],
+                "rows": [
+                  ["Jak se máš? (norasmiy)", "Mám se dobře, díky."],
+                  ["Jak se máte? (rasmiy)", "Děkuji, dobře."],
+                  ["Co je nového?", "Nic moc."]
+                ]
+              },
+              "tip": "\"Jak se máš?\" so'zma-so'z \"O'zingni qanday his qilyapsan?\" degan ma'noni anglatadi — bu chex tilidagi \"qalaysan?\" iborasi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "fillblank",
+              "question": "Rasmiy salomlashish: \"___ den\" (Xayrli kun)",
+              "correctAnswer": ["Dobrý", "dobrý"]
+            },
+            {
+              "type": "wordorder",
+              "instruction": "Gapni to'g'ri tartibda joylashtiring:",
+              "words": ["Jmenuji", "se", "Anna"]
+            }
+          ],
+          "quiz": [
+            {
+              "id": "q1", "type": "single",
+              "question": "Notanish kattalar bilan qanday salomlashish kerak?",
+              "options": ["Ahoj", "Čau", "Dobrý den", "Hey"],
+              "correctAnswer": 2,
+              "explanation": "\"Dobrý den\" rasmiy va hurmatli salomlashish hisoblanadi."
+            },
+            {
+              "id": "q2", "type": "single",
+              "question": "\"Jmenuji se...\" iborasi nimani anglatadi?",
+              "options": ["Men yashayman...", "Mening ismim...", "Men ishlayman...", "Men sevaman..."],
+              "correctAnswer": 1,
+              "explanation": "\"Jmenuji se\" — \"mening ismim\" yoki \"men ... deb ataylaman\" degan ma'noni bildiradi."
+            },
+            {
+              "id": "q3", "type": "truefalse",
+              "question": "\"Ahoj\" so'zi ham salomlashish, ham xayrlashish uchun ishlatiladi.",
+              "correctAnswer": true,
+              "explanation": "To'g'ri! Norasmiy vaziyatda \"Ahoj\" ikkala holatda ham ishlatiladi."
+            },
+            {
+              "id": "q4", "type": "single",
+              "question": "\"Těší mě\" iborasi qachon aytiladi?",
+              "options": ["Xayrlashganda", "Tanishganda", "Ovqatlanishdan oldin", "Uxlashdan oldin"],
+              "correctAnswer": 1,
+              "explanation": "\"Těší mě\" — \"tanishganimdan xursandman\" degan ma'noni bildiradi va tanishuvdan keyin aytiladi."
+            },
+            {
+              "id": "q5", "type": "single",
+              "question": "\"Odkud jste?\" savoli nimani so'raydi?",
+              "options": ["Yoshingiz nechada?", "Qayerdansiz?", "Ismingiz nima?", "Kasbingiz nima?"],
+              "correctAnswer": 1,
+              "explanation": "\"Odkud jste?\" — \"qayerdansiz?\" degan ma'noni anglatadi."
+            }
+          ]
+        },
+        {
+          "id": "a1-03",
+          "title": "Otlarning jinsi (Rod podstatných jmen)",
+          "description": "Chex tilida otlar uchta jinsga ega: erkak, ayol va o'rta jins",
+          "icon": "📐",
+          "category": "Grammatika",
+          "duration": 25,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Uchta jins tushunchasi",
+              "icon": "⚧",
+              "content": "<p>Chex tilida har bir ot (narsa, hodisa, tushuncha nomi) uchta jinsdan biriga tegishli bo'ladi: <strong>erkak jinsi (mužský rod)</strong>, <strong>ayol jinsi (ženský rod)</strong> va <strong>o'rta jins (střední rod)</strong>.</p><p>Jinsni bilish juda muhim, chunki u sifatlar, olmoshlar va fe'llarning shakliga ta'sir qiladi.</p>",
+              "keyPoint": "Jinsni so'zning oxirgi harfiga qarab taxminan aniqlash mumkin, lekin istisnolar ham mavjud — shuning uchun har bir yangi so'zni jinsi bilan birga yodlash tavsiya etiladi."
+            },
+            {
+              "title": "Jinsni aniqlash qoidalari",
+              "icon": "📏",
+              "content": "<p>Asosiy qoida sifatida:</p>",
+              "table": {
+                "caption": "Ot jinsini aniqlash",
+                "headers": ["Jins", "Odatda tugaydi", "Misol"],
+                "rows": [
+                  [{"value": "Erkak (on)"}, "undosh harf bilan", "stůl (stol), muž (erkak)"],
+                  [{"value": "Ayol (ona)"}, "-a, -e bilan", "žena (ayol), růže (atirgul)"],
+                  [{"value": "O'rta (ono)"}, "-o, -í, -e bilan", "město (shahar), moře (dengiz)"]
+                ]
+              },
+              "warning": "Bu faqat umumiy qoida! Masalan \"muž\" (erkak) undosh bilan tugaydi va erkak jinsida, lekin \"růže\" (atirgul) -e bilan tugaydi va ayol jinsida. Istisnolarni alohida yodlash kerak."
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "📝",
+              "content": "<p>Quyida har bir jinsdan misollar keltirilgan:</p>",
+              "examples": [
+                { "czech": "ten stůl", "translation": "bu stol (erkak jinsi)", "note": "\"ten\" — erkak jinsi uchun ko'rsatish olmoshi" },
+                { "czech": "ta žena", "translation": "bu ayol (ayol jinsi)", "note": "\"ta\" — ayol jinsi uchun" },
+                { "czech": "to město", "translation": "bu shahar (o'rta jins)", "note": "\"to\" — o'rta jins uchun" },
+                { "czech": "ten muž", "translation": "bu erkak (erkak jinsi)", "note": "Undosh bilan tugagan, lekin tabiiy erkak jinsi" }
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "fillblank",
+              "question": "\"___ město\" (bu shahar — o'rta jins uchun ko'rsatish olmoshini kiriting)",
+              "correctAnswer": ["to", "To"]
+            },
+            {
+              "type": "fillblank",
+              "question": "\"___ žena\" (bu ayol — ayol jinsi uchun ko'rsatish olmoshini kiriting)",
+              "correctAnswer": ["ta", "Ta"]
+            }
+          ],
+          "quiz": [
+            {
+              "id": "q1", "type": "single",
+              "question": "Chex tilida nechta ot jinsi mavjud?",
+              "options": ["2 ta", "3 ta", "4 ta", "5 ta"],
+              "correctAnswer": 1,
+              "explanation": "Chex tilida uchta jins bor: erkak, ayol va o'rta jins."
+            },
+            {
+              "id": "q2", "type": "single",
+              "question": "\"Město\" (shahar) so'zi qaysi jinsga tegishli?",
+              "options": ["Erkak jinsi", "Ayol jinsi", "O'rta jins", "Jinssiz"],
+              "correctAnswer": 2,
+              "explanation": "\"Město\" -o bilan tugagani uchun o'rta jinsga tegishli."
+            },
+            {
+              "id": "q3", "type": "truefalse",
+              "question": "Barcha -e bilan tugagan so'zlar har doim ayol jinsida bo'ladi.",
+              "correctAnswer": false,
+              "explanation": "Noto'g'ri — masalan \"moře\" (dengiz) -e bilan tugaydi lekin o'rta jinsda."
+            },
+            {
+              "id": "q4", "type": "single",
+              "question": "\"Muž\" (erkak) so'zi nima uchun erkak jinsiga tegishli?",
+              "options": ["-a bilan tugagani uchun", "Undosh bilan tugagani va tabiiy ma'nosi uchun", "-o bilan tugagani uchun", "Tasodifan"],
+              "correctAnswer": 1,
+              "explanation": "\"Muž\" undosh harf bilan tugaydi va tabiatan erkak jinsiga ishora qiladi."
+            }
+          ]
+        },
+        {
+          "id": "a1-04",
+          "title": "Sonlar 0–100",
+          "description": "Chex tilida sanoq sonlarini o'rganamiz",
+          "icon": "🔢",
+          "category": "Lug'at",
+          "duration": 20,
+          "wordCount": 15,
+          "sections": [
+            {
+              "title": "0 dan 10 gacha sonlar",
+              "icon": "📖",
+              "content": "<p>Sonlarni bilish kundalik hayotda — narx so'rashda, vaqtni aytishda, telefon raqamlarini berishda juda zarur.</p>",
+              "table": {
+                "headers": ["Raqam", "Chexcha"],
+                "rows": [
+                  ["0", "nula"], ["1", "jeden"], ["2", "dva"], ["3", "tři"], ["4", "čtyři"],
+                  ["5", "pět"], ["6", "šest"], ["7", "sedm"], ["8", "osm"], ["9", "devět"], ["10", "deset"]
+                ]
+              }
+            },
+            {
+              "title": "11 dan 20 gacha va o'nliklar",
+              "icon": "📋",
+              "content": "<p>11–19 sonlari \"-náct\" qo'shimchasi bilan, o'nliklar esa \"-cet\"/\"-sát\" bilan yasaladi:</p>",
+              "table": {
+                "headers": ["Raqam", "Chexcha"],
+                "rows": [
+                  ["11", "jedenáct"], ["12", "dvanáct"], ["15", "patnáct"], ["20", "dvacet"],
+                  ["30", "třicet"], ["40", "čtyřicet"], ["50", "padesát"], ["100", "sto"]
+                ]
+              },
+              "tip": "100 dan keyingi sonlar qo'shish orqali yasaladi: 21 = dvacet jedna (yigirma bir)."
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Sonlarni gaplarda ishlatish:</p>",
+              "examples": [
+                { "czech": "Mám dvacet let.", "translation": "Men yigirma yoshdaman.", "note": "Yosh aytishda" },
+                { "czech": "To stojí padesát korun.", "translation": "Bu ellik krona turadi.", "note": "Narx aytishda" },
+                { "czech": "Je nás pět.", "translation": "Biz beshtamiz.", "note": "Miqdor aytishda" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "5 raqami chexchada qanday yoziladi? ___", "correctAnswer": ["pět"] },
+            { "type": "fillblank", "question": "10 raqami chexchada qanday yoziladi? ___", "correctAnswer": ["deset"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Tři\" raqami nechaga teng?", "options": ["2", "3", "4", "5"], "correctAnswer": 1, "explanation": "\"Tři\" — 3 raqamiga teng." },
+            { "id": "q2", "type": "single", "question": "100 soni chexchada qanday aytiladi?", "options": ["deset", "sto", "tisíc", "milion"], "correctAnswer": 1, "explanation": "100 — \"sto\" deb aytiladi." },
+            { "id": "q3", "type": "fillblank", "question": "Mám ___ let. (Men 20 yoshdaman)", "correctAnswer": ["dvacet"], "explanation": "20 — \"dvacet\"." }
+          ]
+        },
+        {
+          "id": "a1-05",
+          "title": "Oila a'zolari",
+          "description": "Oila a'zolarining nomlarini o'rganamiz",
+          "icon": "👨‍👩‍👧‍👦",
+          "category": "Lug'at",
+          "duration": 18,
+          "wordCount": 14,
+          "sections": [
+            {
+              "title": "Yaqin oila a'zolari",
+              "icon": "👪",
+              "content": "<p>Oila — chex madaniyatida juda muhim tushuncha. Quyidagi so'zlarni yodlab oling:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["otec / táta", "ota / dada"],
+                  ["matka / máma", "ona / oyi"],
+                  ["bratr", "aka/uka"],
+                  ["sestra", "opa/singil"],
+                  ["syn", "o'g'il"],
+                  ["dcera", "qiz"],
+                  ["manžel", "er"],
+                  ["manželka", "xotin"]
+                ]
+              }
+            },
+            {
+              "title": "Kengaytirilgan oila",
+              "icon": "👴",
+              "content": "<p>Bobo-buvi va boshqa qarindoshlar:</p>",
+              "examples": [
+                { "czech": "dědeček", "translation": "bobo" },
+                { "czech": "babička", "translation": "buvi" },
+                { "czech": "strýc", "translation": "amaki/tog'a" },
+                { "czech": "teta", "translation": "amma/xola" },
+                { "czech": "bratranec", "translation": "amakivachcha (erkak)" },
+                { "czech": "sestřenice", "translation": "amakivachcha (ayol)" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Ota\" chexchada qanday aytiladi? ___", "correctAnswer": ["otec", "táta"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Sestra\" so'zi nimani anglatadi?", "options": ["Aka", "Opa/singil", "Ona", "Qiz"], "correctAnswer": 1, "explanation": "\"Sestra\" — opa yoki singil degan ma'noni bildiradi." },
+            { "id": "q2", "type": "single", "question": "\"Babička\" kim?", "options": ["Bobo", "Buvi", "Amma", "Opa"], "correctAnswer": 1, "explanation": "\"Babička\" — buvi degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "a1-06",
+          "title": "Ranglar",
+          "description": "Asosiy ranglar nomlari va ularni sifat sifatida ishlatish",
+          "icon": "🎨",
+          "category": "Lug'at",
+          "duration": 15,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Asosiy ranglar",
+              "icon": "🌈",
+              "content": "<p>Ranglar — sifat so'zlar bo'lib, ular ot bilan jinsi va soniga mos kelishi kerak. Bu darsda erkak jinsidagi (lug'aviy) shaklini o'rganamiz.</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["červený", "qizil"], ["modrý", "ko'k"], ["zelený", "yashil"], ["žlutý", "sariq"],
+                  ["černý", "qora"], ["bílý", "oq"], ["oranžový", "to'q sariq"], ["fialový", "binafsha"],
+                  ["hnědý", "jigarrang"], ["růžový", "pushti"]
+                ]
+              },
+              "keyPoint": "Sifatlar otning jinsiga mos o'zgaradi: červený dům (erkak), červená kniha (ayol), červené auto (o'rta jins)."
+            },
+            {
+              "title": "Gapda qo'llanilishi",
+              "icon": "💬",
+              "content": "<p>Ranglarni ot bilan birga ishlatish:</p>",
+              "examples": [
+                { "czech": "Mám modré auto.", "translation": "Mening ko'k mashinam bor.", "note": "Auto — o'rta jins, modré" },
+                { "czech": "To je červená kniha.", "translation": "Bu qizil kitob.", "note": "Kniha — ayol jinsi, červená" },
+                { "czech": "On má černé vlasy.", "translation": "Uning sochi qora.", "note": "Vlasy — ko'plik" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Qizil rang chexchada qanday? ___", "correctAnswer": ["červený", "červená", "červené"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Modrý\" rangi qaysi?", "options": ["Qizil", "Ko'k", "Yashil", "Sariq"], "correctAnswer": 1, "explanation": "\"Modrý\" — ko'k rang." },
+            { "id": "q2", "type": "single", "question": "\"Auto\" (mashina) o'rta jins bo'lgani uchun rang qanday tugaydi?", "options": ["-ý", "-á", "-é", "-ou"], "correctAnswer": 2, "explanation": "O'rta jins uchun sifat -é bilan tugaydi: červené auto." }
+          ]
+        },
+        {
+          "id": "a1-07",
+          "title": "Hafta kunlari va oylar",
+          "description": "Hafta kunlari, oylar nomlari va sana aytish",
+          "icon": "📅",
+          "category": "Lug'at",
+          "duration": 18,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Hafta kunlari",
+              "icon": "🗓️",
+              "content": "<p>Chex tilida hafta dushanbadan boshlanadi (xalqaro standartga mos).</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["pondělí", "dushanba"], ["úterý", "seshanba"], ["středa", "chorshanba"],
+                  ["čtvrtek", "payshanba"], ["pátek", "juma"], ["sobota", "shanba"], ["neděle", "yakshanba"]
+                ]
+              }
+            },
+            {
+              "title": "Oylar",
+              "icon": "📆",
+              "content": "<p>12 oy nomlari:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["leden", "yanvar"], ["únor", "fevral"], ["březen", "mart"], ["duben", "aprel"],
+                  ["květen", "may"], ["červen", "iyun"], ["červenec", "iyul"], ["srpen", "avgust"],
+                  ["září", "sentabr"], ["říjen", "oktabr"], ["listopad", "noyabr"], ["prosinec", "dekabr"]
+                ]
+              },
+              "tip": "Chex oy nomlari lotincha emas, tabiat hodisalaridan kelib chiqqan — masalan \"květen\" (may) \"kvét\" (gullash) so'zidan."
+            },
+            {
+              "title": "Sana aytish",
+              "icon": "💬",
+              "content": "<p>Sanani so'rash va aytish:</p>",
+              "examples": [
+                { "czech": "Jaký je dnes den?", "translation": "Bugun qanday kun?" },
+                { "czech": "Dnes je pondělí.", "translation": "Bugun dushanba." },
+                { "czech": "Moje narozeniny jsou v květnu.", "translation": "Mening tug'ilgan kunim mayda." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Dushanba chexchada: ___", "correctAnswer": ["pondělí"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Pátek\" qaysi kun?", "options": ["Chorshanba", "Payshanba", "Juma", "Shanba"], "correctAnswer": 2, "explanation": "\"Pátek\" — juma kuni." },
+            { "id": "q2", "type": "truefalse", "question": "Chex tilida hafta yakshanbadan boshlanadi.", "correctAnswer": false, "explanation": "Noto'g'ri — chex tilida hafta \"pondělí\" (dushanba) dan boshlanadi." }
+          ]
+        },
+        {
+          "id": "a1-08",
+          "title": "Kiyim-kechak",
+          "description": "Kiyim turlari va ularni tasvirlash",
+          "icon": "👕",
+          "category": "Lug'at",
+          "duration": 16,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Asosiy kiyim turlari",
+              "icon": "🧥",
+              "content": "<p>Do'konda yoki kundalik suhbatda kerak bo'ladigan kiyim so'zlari:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["tričko", "futbolka"], ["kalhoty", "shim"], ["košile", "ko'ylak (erkak)"],
+                  ["šaty", "ko'ylak (ayol)"], ["bunda", "kurtka"], ["boty", "poyabzal"],
+                  ["svetr", "sviter"], ["sukně", "yubka"], ["čepice", "qalpoq"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy gaplar",
+              "icon": "🛍️",
+              "content": "<p>Do'konda foydali iboralar:</p>",
+              "examples": [
+                { "czech": "Hledám tričko.", "translation": "Men futbolka qidiryapman." },
+                { "czech": "Jakou velikost máte?", "translation": "Qanday o'lcham olasiz?" },
+                { "czech": "Mohu si to vyzkoušet?", "translation": "Buni kiyib ko'rsam bo'ladimi?" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Poyabzal\" chexchada: ___", "correctAnswer": ["boty"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Kalhoty\" nima?", "options": ["Futbolka", "Shim", "Ko'ylak", "Kurtka"], "correctAnswer": 1, "explanation": "\"Kalhoty\" — shim degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "a1-09",
+          "title": "Ovqat va ichimliklar",
+          "description": "Restoranda va do'konda kerak bo'ladigan ovqat lug'ati",
+          "icon": "🍽️",
+          "category": "Lug'at",
+          "duration": 20,
+          "wordCount": 15,
+          "sections": [
+            {
+              "title": "Asosiy ovqatlar",
+              "icon": "🍲",
+              "content": "<p>Chex oshxonasi mazali va to'yimli taomlarga boy. Eng muhim so'zlardan boshlaymiz:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["polévka", "sho'rva"], ["maso", "go'sht"], ["zelenina", "sabzavot"],
+                  ["ovoce", "meva"], ["sýr", "pishloq"], ["vejce", "tuxum"], ["rýže", "guruch"],
+                  ["brambory", "kartoshka"]
+                ]
+              }
+            },
+            {
+              "title": "Ichimliklar",
+              "icon": "🥤",
+              "content": "<p>Ichimliklar nomlari:</p>",
+              "examples": [
+                { "czech": "voda", "translation": "suv" },
+                { "czech": "káva", "translation": "kofe" },
+                { "czech": "čaj", "translation": "choy" },
+                { "czech": "pivo", "translation": "pivo (Chexiyaning mashhur ichimligi)" },
+                { "czech": "šťáva", "translation": "sharbat" }
+              ]
+            },
+            {
+              "title": "Restoranda buyurtma berish",
+              "icon": "🍴",
+              "content": "<p>Foydali iboralar:</p>",
+              "examples": [
+                { "czech": "Chtěl bych objednat polévku.", "translation": "Men sho'rva buyurtma qilmoqchiman." },
+                { "czech": "Dobrou chuť!", "translation": "Yoqimli ishtaha!" },
+                { "czech": "Účet, prosím.", "translation": "Hisob-kitob, iltimos." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Sho'rva\" chexchada: ___", "correctAnswer": ["polévka"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Dobrou chuť!\" iborasi qachon aytiladi?", "options": ["Salomlashganda", "Ovqatlanishdan oldin", "Xayrlashganda", "Uxlashdan oldin"], "correctAnswer": 1, "explanation": "\"Dobrou chuť!\" — \"yoqimli ishtaha!\" degan ma'noda ovqatlanishdan oldin aytiladi." },
+            { "id": "q2", "type": "single", "question": "Chexiyaning mashhur milliy ichimligi qaysi?", "options": ["Čaj", "Káva", "Pivo", "Šťáva"], "correctAnswer": 2, "explanation": "Pivo — Chexiyaning dunyoga mashhur milliy ichimligi." }
+          ]
+        },
+        {
+          "id": "a1-10",
+          "title": "Uy va xonalar",
+          "description": "Uy qismlari va asosiy mebel nomlari",
+          "icon": "🏠",
+          "category": "Lug'at",
+          "duration": 17,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Uyning xonalari",
+              "icon": "🚪",
+              "content": "<p>Uy haqida gapirish uchun zarur so'zlar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["kuchyně", "oshxona"], ["obývací pokoj", "mehmonxona"], ["ložnice", "yotoqxona"],
+                  ["koupelna", "hammom"], ["záchod", "hojatxona"], ["balkón", "balkon"], ["zahrada", "bog'"]
+                ]
+              }
+            },
+            {
+              "title": "Mebel",
+              "icon": "🛋️",
+              "content": "<p>Asosiy mebel nomlari:</p>",
+              "examples": [
+                { "czech": "postel", "translation": "krovat" },
+                { "czech": "stůl", "translation": "stol" },
+                { "czech": "židle", "translation": "stul" },
+                { "czech": "skříň", "translation": "shkaf" },
+                { "czech": "gauč", "translation": "divan" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Oshxona\" chexchada: ___", "correctAnswer": ["kuchyně"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Ložnice\" qaysi xona?", "options": ["Oshxona", "Yotoqxona", "Hammom", "Mehmonxona"], "correctAnswer": 1, "explanation": "\"Ložnice\" — yotoqxona degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "a1-11",
+          "title": "Kasblar",
+          "description": "Eng ko'p uchraydigan kasb nomlari",
+          "icon": "💼",
+          "category": "Lug'at",
+          "duration": 16,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Keng tarqalgan kasblar",
+              "icon": "👔",
+              "content": "<p>O'z kasbingiz va boshqalarning kasbi haqida gapirish uchun:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["lékař / lékařka", "shifokor (erkak/ayol)"], ["učitel / učitelka", "o'qituvchi"],
+                  ["inženýr", "muhandis"], ["programátor", "dasturchi"], ["prodavač", "sotuvchi"],
+                  ["řidič", "haydovchi"], ["kuchař", "oshpaz"], ["právník", "yurist"]
+                ]
+              },
+              "keyPoint": "Ko'p kasb nomlari erkak va ayol jinsida farqlanadi: učitel (erkak) → učitelka (ayol)."
+            },
+            {
+              "title": "Kasb haqida so'rash",
+              "icon": "💬",
+              "content": "<p>Suhbatda foydali jumlalar:</p>",
+              "examples": [
+                { "czech": "Co děláš?", "translation": "Kasbing nima? / Nima qilasan?" },
+                { "czech": "Jsem programátor.", "translation": "Men dasturchiman." },
+                { "czech": "Kde pracuješ?", "translation": "Qayerda ishlaysan?" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Dasturchi\" chexchada: ___", "correctAnswer": ["programátor"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Učitelka\" kim?", "options": ["Ayol shifokor", "Ayol o'qituvchi", "Ayol haydovchi", "Ayol yurist"], "correctAnswer": 1, "explanation": "\"Učitelka\" — ayol o'qituvchi degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "a1-12",
+          "title": "Soat va vaqt",
+          "description": "Soatni so'rash va aytish, kun bo'limlari",
+          "icon": "🕐",
+          "category": "Lug'at",
+          "duration": 20,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Soatni so'rash",
+              "icon": "⏰",
+              "content": "<p>Vaqtni bilish kundalik hayotda zarur. Asosiy savol va javoblar:</p>",
+              "examples": [
+                { "czech": "Kolik je hodin?", "translation": "Soat necha?" },
+                { "czech": "Je jedna hodina.", "translation": "Soat bir." },
+                { "czech": "Je půl třetí.", "translation": "Soat ikki yarim (so'zma-so'z: uchinchining yarmi)." }
+              ],
+              "warning": "Chex tilida vaqt aytish o'ziga xos: \"půl třetí\" (uchinchining yarmi) — bu bizning \"ikki yarim\" degani, ya'ni keyingi soatga nisbatan hisoblanadi!"
+            },
+            {
+              "title": "Kun bo'limlari",
+              "icon": "🌅",
+              "content": "<p>Kun davomidagi vaqt bo'limlari:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["ráno", "ertalab"], ["dopoledne", "tushlikdan oldin"], ["poledne", "tush payti"],
+                  ["odpoledne", "tushdan keyin"], ["večer", "kechqurun"], ["půlnoc", "yarim tun"]
+                ]
+              }
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Soat necha?\" — Kolik je ___?", "correctAnswer": ["hodin"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Kolik je hodin?\" nimani so'raydi?", "options": ["Bugun qaysi kun?", "Soat necha?", "Necha yoshdasiz?", "Qaysi oy?"], "correctAnswer": 1, "explanation": "\"Kolik je hodin?\" — \"Soat necha?\" degan savol." },
+            { "id": "q2", "type": "single", "question": "\"Večer\" qaysi vaqtni bildiradi?", "options": ["Ertalab", "Tush payti", "Kechqurun", "Yarim tun"], "correctAnswer": 2, "explanation": "\"Večer\" — kechqurun degan ma'noni bildiradi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "A2 — Elementar",
+      "description": "Kundalik muloqot, oddiy fe'l zamonlari, kelishiklar",
+      "lessons": [
+        {
+          "id": "a2-01",
+          "title": "Hozirgi zamon fe'llari",
+          "description": "Chex tilida fe'llarni hozirgi zamonda tuslash",
+          "icon": "⏰",
+          "category": "Grammatika",
+          "duration": 25,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Fe'l tuslanishi asoslari",
+              "icon": "📖",
+              "content": "<p>Chex tilida fe'llar shaxs va songa qarab tuslanadi (o'zgaradi). Ingliz tilidan farqli o'laroq, chex tilida olmoshni tushirib qoldirish mumkin, chunki fe'l shakli o'zi kim haqida gap ketayotganini bildiradi.</p>",
+              "keyPoint": "\"Dělám\" so'zining o'zi \"men qilaman\" degan ma'noni anglatadi — \"já dělám\" deb aytish shart emas, garchi mumkin bo'lsa ham."
+            },
+            {
+              "title": "\"Dělat\" (qilmoq) fe'lini tuslash",
+              "icon": "📋",
+              "content": "<p>Eng keng tarqalgan fe'l guruhi namunasida ko'ramiz:</p>",
+              "table": {
+                "caption": "Dělat (qilmoq) — hozirgi zamon",
+                "headers": ["Shaxs", "Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["já (men)", {"value": "dělám"}, "men qilaman"],
+                  ["ty (sen)", {"value": "děláš"}, "sen qilasan"],
+                  ["on/ona/ono (u)", {"value": "dělá"}, "u qiladi"],
+                  ["my (biz)", {"value": "děláme"}, "biz qilamiz"],
+                  ["vy (siz)", {"value": "děláte"}, "siz qilasiz"],
+                  ["oni (ular)", {"value": "dělají"}, "ular qiladi"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Kundalik nutqda ko'p ishlatiladigan jumlalar:</p>",
+              "examples": [
+                { "czech": "Co děláš?", "translation": "Nima qilyapsan?", "note": "Eng ko'p ishlatiladigan savollardan biri" },
+                { "czech": "Pracuji v Praze.", "translation": "Men Pragada ishlayman.", "note": "Pracovat fe'lidan" },
+                { "czech": "Studujeme češtinu.", "translation": "Biz chex tilini o'rganyapmiz.", "note": "Studovat fe'lidan" },
+                { "czech": "Oni mluví anglicky.", "translation": "Ular ingliz tilida gapirishadi.", "note": "Mluvit fe'lidan" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Já ___ (dělat - men qilaman)", "correctAnswer": ["dělám"] },
+            { "type": "fillblank", "question": "Ty ___ (dělat - sen qilasan)", "correctAnswer": ["děláš"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"My\" (biz) uchun \"dělat\" fe'lining to'g'ri shakli qaysi?", "options": ["dělám", "děláte", "děláme", "dělají"], "correctAnswer": 2, "explanation": "\"My děláme\" — \"biz qilamiz\" degan ma'noni bildiradi." },
+            { "id": "q2", "type": "single", "question": "\"Pracuji v Praze\" jumlasi nimani anglatadi?", "options": ["Men Pragaga boraman", "Men Pragada ishlayman", "Men Pragadan kelaman", "Men Pragani sevaman"], "correctAnswer": 1, "explanation": "\"Pracuji v Praze\" — \"Men Pragada ishlayman\" degan ma'noni bildiradi." },
+            { "id": "q3", "type": "truefalse", "question": "Chex tilida fe'l shaklidan kim haqida gap ketayotganini bilish mumkin, shuning uchun olmoshni tushirib qoldirsa ham bo'ladi.", "correctAnswer": true, "explanation": "To'g'ri! Bu chex tilining muhim xususiyati — \"pro-drop\" til hisoblanadi." }
+          ]
+        },
+        {
+          "id": "a2-02",
+          "title": "Kelishiklar: Tug'rilovchi kelishik (4. pád)",
+          "description": "To'g'ri to'ldiruvchini ifodalovchi kelishik bilan tanishish",
+          "icon": "📐",
+          "category": "Grammatika",
+          "duration": 28,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Kelishiklar tizimiga umumiy nazar",
+              "icon": "📖",
+              "content": "<p>Chex tili 7 ta kelishikka ega bo'lgan flektiv til. Har bir kelishik otning gapdagi vazifasini bildiradi. Bu darsda <strong>4-kelishik (Akuzativ)</strong> — to'g'ri to'ldiruvchi kelishigini o'rganamiz.</p>",
+              "keyPoint": "4-kelishik savoli: \"koho? co?\" (kimni? nimani?) — bu fe'l ta'sir qiluvchi obyektni bildiradi."
+            },
+            {
+              "title": "Erkak jinsi otlarning o'zgarishi",
+              "icon": "📋",
+              "content": "<p>Erkak jinsidagi jonli va jonsiz otlar 4-kelishikda farqli tugaydi:</p>",
+              "table": {
+                "caption": "4-kelishik — erkak jinsi",
+                "headers": ["Bosh kelishik", "4-kelishik", "Misol gapda"],
+                "rows": [
+                  ["pan (janob)", {"value": "pana"}, "Vidím pana."],
+                  ["stůl (stol)", {"value": "stůl"}, "Vidím stůl."],
+                  ["bratr (aka)", {"value": "bratra"}, "Mám bratra."]
+                ]
+              },
+              "tip": "Jonli erkak jinsi otlar (odam, hayvon) 4-kelishikda odatda -a qo'shimchasini oladi, jonsiz otlar esa o'zgarmasdan qoladi."
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>4-kelishik kundalik nutqda juda tez-tez ishlatiladi:</p>",
+              "examples": [
+                { "czech": "Mám knihu.", "translation": "Mening kitobim bor.", "note": "Kniha → knihu (ayol jinsi -a → -u)" },
+                { "czech": "Vidím auto.", "translation": "Men mashinani ko'ryapman.", "note": "Auto o'zgarmaydi (o'rta jins)" },
+                { "czech": "Čtu knihu.", "translation": "Men kitob o'qiyapman.", "note": "Čtu — \"číst\" fe'lidan" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Mám ___ (kniha — kitobim bor)", "correctAnswer": ["knihu"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "4-kelishik qanday savolga javob beradi?", "options": ["Kim? Nima? (bosh kelishik)", "Kimni? Nimani?", "Kimga? Nimaga?", "Kim bilan?"], "correctAnswer": 1, "explanation": "4-kelishik (Akuzativ) \"koho? co?\" — kimni? nimani? savoliga javob beradi." },
+            { "id": "q2", "type": "single", "question": "\"Kniha\" so'zining 4-kelishikdagi shakli qanday?", "options": ["kniha", "knihy", "knihu", "knize"], "correctAnswer": 2, "explanation": "Ayol jinsidagi -a bilan tugagan otlar 4-kelishikda -u ga o'zgaradi: kniha → knihu." }
+          ]
+        },
+        {
+          "id": "a2-03",
+          "title": "Ob-havo va fasllar",
+          "description": "Ob-havo haqida gapirish, fasllar nomlari",
+          "icon": "🌤️",
+          "category": "Lug'at",
+          "duration": 18,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Ob-havo haqida so'zlar",
+              "icon": "☀️",
+              "content": "<p>Chexiyada ob-havo haqida suhbat — eng keng tarqalgan kichik suhbat mavzularidan biri.</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["slunečno", "quyoshli"], ["zataženo", "bulutli"], ["prší", "yomg'ir yog'moqda"],
+                  ["sněží", "qor yog'moqda"], ["vítr", "shamol"], ["mlha", "tuman"]
+                ]
+              }
+            },
+            {
+              "title": "Yilning fasllari",
+              "icon": "🍂",
+              "content": "<p>To'rt fasl nomlari:</p>",
+              "examples": [
+                { "czech": "jaro", "translation": "bahor" },
+                { "czech": "léto", "translation": "yoz" },
+                { "czech": "podzim", "translation": "kuz" },
+                { "czech": "zima", "translation": "qish" }
+              ]
+            },
+            {
+              "title": "Gap tuzish",
+              "icon": "💬",
+              "content": "<p>Ob-havo haqida gapirish uchun foydali jumlalar:</p>",
+              "examples": [
+                { "czech": "Jaké je dnes počasí?", "translation": "Bugun ob-havo qanday?" },
+                { "czech": "Venku je zima.", "translation": "Tashqarida sovuq." },
+                { "czech": "V létě je teplo.", "translation": "Yozda issiq bo'ladi." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Yomg'ir yog'moqda — chexchada: ___", "correctAnswer": ["prší"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Zima\" so'zi nimani anglatadi?", "options": ["Bahor", "Yoz", "Kuz", "Qish"], "correctAnswer": 3, "explanation": "\"Zima\" — qish faslini anglatadi." },
+            { "id": "q2", "type": "single", "question": "\"Slunečno\" so'zi qanday ob-havoni bildiradi?", "options": ["Yomg'irli", "Quyoshli", "Bulutli", "Shamolli"], "correctAnswer": 1, "explanation": "\"Slunečno\" — quyoshli ob-havo degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "a2-04",
+          "title": "Modal fe'llar (Chtít, Moct, Muset)",
+          "description": "Xohish, imkoniyat va majburiyatni ifodalovchi fe'llar",
+          "icon": "🔑",
+          "category": "Grammatika",
+          "duration": 24,
+          "wordCount": 9,
+          "sections": [
+            {
+              "title": "Modal fe'llarga kirish",
+              "icon": "📖",
+              "content": "<p>Modal fe'llar boshqa fe'l (infinitiv) bilan birga ishlatilib, xohish, imkoniyat yoki majburiyatni bildiradi. Eng muhimlari: <strong>chtít</strong> (xohlamoq), <strong>moct</strong> (mumkin bo'lmoq) va <strong>muset</strong> (kerak bo'lmoq).</p>",
+              "keyPoint": "Modal fe'ldan keyin har doim infinitiv keladi: \"Chci jít\" (Men bormoqchiman) — \"jít\" infinitiv shaklda."
+            },
+            {
+              "title": "Tuslash jadvali",
+              "icon": "📋",
+              "content": "<p>Uchala fe'lning hozirgi zamondagi tuslanishi:</p>",
+              "table": {
+                "headers": ["Shaxs", "Chtít", "Moct", "Muset"],
+                "rows": [
+                  ["já", "chci", "můžu", "musím"],
+                  ["ty", "chceš", "můžeš", "musíš"],
+                  ["on/ona", "chce", "může", "musí"],
+                  ["my", "chceme", "můžeme", "musíme"],
+                  ["vy", "chcete", "můžete", "musíte"],
+                  ["oni", "chtějí", "můžou", "musí"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Kundalik nutqda modal fe'llar:</p>",
+              "examples": [
+                { "czech": "Chci se učit česky.", "translation": "Men chex tilini o'rganmoqchiman." },
+                { "czech": "Můžu ti pomoct?", "translation": "Senga yordam bera olamanmi?" },
+                { "czech": "Musím jít domů.", "translation": "Men uyga ketishim kerak." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Já ___ jít domů. (musím — men ketishim kerak)", "correctAnswer": ["musím"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Musím\" fe'li nimani bildiradi?", "options": ["Men xohlayman", "Men mumkin", "Men kerak", "Men bilaman"], "correctAnswer": 2, "explanation": "\"Musím\" — \"men ... qilishim kerak\" degan majburiyatni bildiradi." },
+            { "id": "q2", "type": "truefalse", "question": "Modal fe'ldan keyin har doim infinitiv keladi.", "correctAnswer": true, "explanation": "To'g'ri! Masalan \"chci jít\" — \"jít\" infinitiv." }
+          ]
+        },
+        {
+          "id": "a2-05",
+          "title": "3-kelishik (Dativ)",
+          "description": "Qaratqich to'ldiruvchini ifodalovchi kelishik",
+          "icon": "📐",
+          "category": "Grammatika",
+          "duration": 26,
+          "wordCount": 8,
+          "sections": [
+            {
+              "title": "3-kelishikka kirish",
+              "icon": "📖",
+              "content": "<p>3-kelishik (Dativ) \"komu? čemu?\" (kimga? nimaga?) savoliga javob beradi va odatda harakat yo'naltirilgan shaxsni bildiradi.</p>",
+              "keyPoint": "Dativ ko'pincha \"berish\", \"aytish\", \"yordam berish\" kabi fe'llar bilan ishlatiladi."
+            },
+            {
+              "title": "O'zgarish jadvali",
+              "icon": "📋",
+              "content": "<p>Ayol jinsidagi otlar uchun namuna:</p>",
+              "table": {
+                "caption": "3-kelishik — ayol jinsi",
+                "headers": ["Bosh kelishik", "3-kelishik"],
+                "rows": [
+                  ["žena", {"value": "ženě"}],
+                  ["sestra", {"value": "sestře"}],
+                  ["matka", {"value": "matce"}]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Dativ kundalik gaplarda:</p>",
+              "examples": [
+                { "czech": "Dám knihu sestře.", "translation": "Men kitobni opamga beraman.", "note": "Sestra → sestře (3-kelishik)" },
+                { "czech": "Pomáhám mamince.", "translation": "Men oyimga yordam beryapman.", "note": "Maminka → mamince" },
+                { "czech": "Řeknu mu pravdu.", "translation": "Men unga haqiqatni aytaman.", "note": "Mu — \"on\" olmoshining 3-kelishigi" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Dám knihu ___ (sestra — opamga)", "correctAnswer": ["sestře"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "3-kelishik qanday savolga javob beradi?", "options": ["Kim? Nima?", "Kimni? Nimani?", "Kimga? Nimaga?", "Kim bilan?"], "correctAnswer": 2, "explanation": "3-kelishik (Dativ) \"komu? čemu?\" — kimga? nimaga? savoliga javob beradi." }
+          ]
+        },
+        {
+          "id": "a2-06",
+          "title": "Ko'plik son (Množné číslo)",
+          "description": "Otlarni ko'plikka qo'yish qoidalari",
+          "icon": "🔢",
+          "category": "Grammatika",
+          "duration": 22,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Ko'plik yasalishi",
+              "icon": "📖",
+              "content": "<p>Chex tilida ko'plik son jinsga qarab turlicha yasaladi. Eng keng tarqalgan qoidalar quyida keltirilgan.</p>",
+              "keyPoint": "Erkak jinsidagi jonli otlar ko'pincha -i/-ové bilan, ayol jinsi -y/-e bilan, o'rta jins -a bilan ko'plikka o'tadi."
+            },
+            {
+              "title": "Ko'plik jadvali",
+              "icon": "📋",
+              "content": "<p>Har bir jinsdan misollar:</p>",
+              "table": {
+                "headers": ["Birlik", "Ko'plik", "Tarjima"],
+                "rows": [
+                  ["student", {"value": "studenti"}, "talaba(lar)"],
+                  ["žena", {"value": "ženy"}, "ayol(lar)"],
+                  ["město", {"value": "města"}, "shahar(lar)"],
+                  ["kniha", {"value": "knihy"}, "kitob(lar)"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Ko'plikda gap tuzish:</p>",
+              "examples": [
+                { "czech": "Mám dvě knihy.", "translation": "Mening ikkita kitobim bor." },
+                { "czech": "V Praze jsou krásná města.", "translation": "Pragada chiroyli shaharlar bor." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Kniha\" so'zining ko'pligi: ___", "correctAnswer": ["knihy"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Město\" so'zining ko'pligi qaysi?", "options": ["městy", "města", "městi", "městé"], "correctAnswer": 1, "explanation": "O'rta jinsdagi otlar ko'plikda -a bilan tugaydi: město → města." }
+          ]
+        },
+        {
+          "id": "a2-07",
+          "title": "Sifat darajalari (Stupňování přídavných jmen)",
+          "description": "Qiyosiy va orttirma daraja yasash",
+          "icon": "📊",
+          "category": "Grammatika",
+          "duration": 24,
+          "wordCount": 9,
+          "sections": [
+            {
+              "title": "Daraja yasalishi",
+              "icon": "📖",
+              "content": "<p>Chex tilida sifatlar uchta darajaga ega: oddiy, qiyosiy (-ější/-ejší) va orttirma (nej- + qiyosiy).</p>",
+              "keyPoint": "Orttirma daraja har doim \"nej-\" prefiksi bilan yasaladi: qiyosiy darajaga shu prefiks qo'shiladi."
+            },
+            {
+              "title": "Misollar jadvali",
+              "icon": "📋",
+              "content": "<p>Uchta daraja namunasi:</p>",
+              "table": {
+                "headers": ["Oddiy", "Qiyosiy", "Orttirma"],
+                "rows": [
+                  ["velký (katta)", {"value": "větší"}, {"value": "největší"}],
+                  ["malý (kichik)", {"value": "menší"}, {"value": "nejmenší"}],
+                  ["dobrý (yaxshi)", {"value": "lepší"}, {"value": "nejlepší"}],
+                  ["rychlý (tez)", {"value": "rychlejší"}, {"value": "nejrychlejší"}]
+                ]
+              },
+              "warning": "\"Dobrý\" (yaxshi) va \"velký\" (katta) kabi ba'zi sifatlar istisno bo'lib, qoidaviy emas — alohida yodlash kerak."
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Taqqoslashda foydalanish:</p>",
+              "examples": [
+                { "czech": "Praha je větší než Brno.", "translation": "Praga Brnodan kattaroq." },
+                { "czech": "To je nejlepší kavárna ve městě.", "translation": "Bu shahardagi eng yaxshi kafe." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Dobrý\" so'zining qiyosiy darajasi: ___", "correctAnswer": ["lepší"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "Orttirma daraja qaysi prefiks bilan yasaladi?", "options": ["pre-", "nej-", "naj-", "nad-"], "correctAnswer": 1, "explanation": "Orttirma daraja \"nej-\" prefiksi bilan yasaladi." },
+            { "id": "q2", "type": "single", "question": "\"Velký\" so'zining qiyosiy shakli qaysi?", "options": ["velkější", "větší", "největší", "velký"], "correctAnswer": 1, "explanation": "\"Velký\" istisno bo'lib, qiyosiy shakli \"větší\" bo'ladi." }
+          ]
+        },
+        {
+          "id": "a2-08",
+          "title": "Transport va yo'l yurish",
+          "description": "Jamoat transporti va yo'nalish so'rash",
+          "icon": "🚆",
+          "category": "Lug'at",
+          "duration": 20,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Transport turlari",
+              "icon": "🚌",
+              "content": "<p>Shaharda harakatlanish uchun zarur so'zlar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["autobus", "avtobus"], ["tramvaj", "tramvay"], ["metro", "metro"],
+                  ["vlak", "poyezd"], ["letadlo", "samolyot"], ["jízdenka", "chipta"]
+                ]
+              }
+            },
+            {
+              "title": "Yo'nalish so'rash",
+              "icon": "🗺️",
+              "content": "<p>Yo'l so'rashda foydali iboralar:</p>",
+              "examples": [
+                { "czech": "Kde je nejbližší zastávka?", "translation": "Eng yaqin bekat qayerda?" },
+                { "czech": "Jak se dostanu na nádraží?", "translation": "Vokzalga qanday borsam bo'ladi?" },
+                { "czech": "Jeďte rovně a pak doleva.", "translation": "To'g'riga yuring, keyin chapga buriling." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Chipta\" chexchada: ___", "correctAnswer": ["jízdenka"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Nádraží\" so'zi nimani anglatadi?", "options": ["Aeroport", "Vokzal", "Bekat", "Yo'l"], "correctAnswer": 1, "explanation": "\"Nádraží\" — temir yo'l vokzali degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "a2-09",
+          "title": "Shaharda yo'nalish",
+          "description": "Shahar joylari va yo'nalish ko'rsatish",
+          "icon": "🏙️",
+          "category": "Lug'at",
+          "duration": 18,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Shahar joylari",
+              "icon": "📍",
+              "content": "<p>Shaharda topish kerak bo'lgan joylar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["banka", "bank"], ["pošta", "pochta"], ["lékárna", "dorixona"],
+                  ["nemocnice", "kasalxona"], ["muzeum", "muzey"], ["kostel", "cherkov"], ["park", "park"]
+                ]
+              }
+            },
+            {
+              "title": "Yo'nalish ko'rsatish so'zlari",
+              "icon": "🧭",
+              "content": "<p>Asosiy yo'nalish so'zlari:</p>",
+              "examples": [
+                { "czech": "doleva", "translation": "chapga" },
+                { "czech": "doprava", "translation": "o'ngga" },
+                { "czech": "rovně", "translation": "to'g'riga" },
+                { "czech": "naproti", "translation": "qarshisida" },
+                { "czech": "vedle", "translation": "yonida" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Dorixona\" chexchada: ___", "correctAnswer": ["lékárna"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Naproti\" so'zi nimani bildiradi?", "options": ["Yonida", "Qarshisida", "Orqasida", "Ichida"], "correctAnswer": 1, "explanation": "\"Naproti\" — \"qarshisida\" degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "a2-10",
+          "title": "Xarid qilish",
+          "description": "Do'konda muloqot va narx so'rash",
+          "icon": "🛒",
+          "category": "Lug'at",
+          "duration": 19,
+          "wordCount": 11,
+          "sections": [
+            {
+              "title": "Do'konda foydali so'zlar",
+              "icon": "🏪",
+              "content": "<p>Xarid qilishda kerak bo'ladigan asosiy so'zlar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["obchod", "do'kon"], ["supermarket", "supermarket"], ["cena", "narx"],
+                  ["sleva", "chegirma"], ["pokladna", "kassa"], ["účtenka", "chek"]
+                ]
+              }
+            },
+            {
+              "title": "Narx so'rash va to'lov",
+              "icon": "💳",
+              "content": "<p>Kassada foydali iboralar:</p>",
+              "examples": [
+                { "czech": "Kolik to stojí?", "translation": "Bu qancha turadi?" },
+                { "czech": "Platím kartou.", "translation": "Men karta bilan to'layman." },
+                { "czech": "Máte to ve slevě?", "translation": "Bunga chegirma bormi?" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Kolik to ___?\" (qancha turadi?)", "correctAnswer": ["stojí"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Sleva\" nimani anglatadi?", "options": ["Narx", "Chegirma", "Chek", "Kassa"], "correctAnswer": 1, "explanation": "\"Sleva\" — chegirma degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "a2-11",
+          "title": "Sog'liq va kasallik",
+          "description": "Shifokorga murojaat qilish, sog'liq holatini tasvirlash",
+          "icon": "🏥",
+          "category": "Lug'at",
+          "duration": 22,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Sog'liq haqida so'zlar",
+              "icon": "💊",
+              "content": "<p>Shifokorga borganda yoki sog'lig'ingiz haqida gapirganda kerak bo'ladigan so'zlar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["bolest", "og'riq"], ["horečka", "isitma"], ["nachlazení", "shamollash"],
+                  ["lék", "dori"], ["recept", "retsept"], ["alergie", "allergiya"]
+                ]
+              }
+            },
+            {
+              "title": "Shifokorda muloqot",
+              "icon": "🩺",
+              "content": "<p>Sog'liq holatini tasvirlash:</p>",
+              "examples": [
+                { "czech": "Bolí mě hlava.", "translation": "Boshim og'riyapti." },
+                { "czech": "Mám horečku.", "translation": "Isitmam bor." },
+                { "czech": "Potřebuji lékaře.", "translation": "Menga shifokor kerak." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Boshim og'riyapti\" — Bolí mě ___.", "correctAnswer": ["hlava"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Horečka\" nimani anglatadi?", "options": ["Og'riq", "Isitma", "Shamollash", "Allergiya"], "correctAnswer": 1, "explanation": "\"Horečka\" — isitma degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "a2-12",
+          "title": "Sport va sevimli mashg'ulotlar",
+          "description": "Sport turlari va hobbi haqida gapirish",
+          "icon": "⚽",
+          "category": "Lug'at",
+          "duration": 18,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Sport turlari",
+              "icon": "🏃",
+              "content": "<p>Mashhur sport turlari nomlari:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["fotbal", "futbol"], ["hokej", "xokkey"], ["tenis", "tennis"],
+                  ["plavání", "suzish"], ["běhání", "yugurish"], ["lyžování", "chang'i uchish"]
+                ]
+              },
+              "tip": "Xokkey Chexiyada eng sevimli sport turlaridan biri — milliy jamoa bir necha bor jahon chempioni bo'lgan."
+            },
+            {
+              "title": "Hobbi haqida gapirish",
+              "icon": "🎯",
+              "content": "<p>Sevimli mashg'ulot haqida:</p>",
+              "examples": [
+                { "czech": "Rád hraji fotbal.", "translation": "Men futbol o'ynashni yaxshi ko'raman." },
+                { "czech": "Co děláš ve volném čase?", "translation": "Bo'sh vaqtingda nima qilasan?" },
+                { "czech": "Chodím plavat každý týden.", "translation": "Men har hafta suzishga boraman." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Xokkey\" chexchada: ___", "correctAnswer": ["hokej"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "Chexiyada eng mashhur sport turlaridan biri qaysi?", "options": ["Futbol", "Xokkey", "Basketbol", "Voleybol"], "correctAnswer": 1, "explanation": "Xokkey Chexiyada juda mashhur va milliy jamoa bir necha marta jahon chempioni bo'lgan." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "name": "B1 — O'rta daraja",
+      "description": "Murakkabroq grammatika, fikr bildirish, sabab-natija jumlalari",
+      "lessons": [
+        {
+          "id": "b1-01",
+          "title": "O'tgan zamon (Minulý čas)",
+          "description": "Chex tilida o'tgan zamonni yasash va ishlatish",
+          "icon": "⏳",
+          "category": "Grammatika",
+          "duration": 30,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "O'tgan zamon yasalishi",
+              "icon": "📖",
+              "content": "<p>Chex tilida o'tgan zamon ikki qismdan iborat: fe'lning <strong>l-shakli</strong> (masalan, dělal) va <strong>byt</strong> (bo'lmoq) yordamchi fe'lining hozirgi zamon shakli.</p>",
+              "keyPoint": "Uchinchi shaxs (on/ona/ono, oni) uchun yordamchi fe'l ishlatilmaydi — faqat l-shakl yetarli."
+            },
+            {
+              "title": "Tuslash jadvali",
+              "icon": "📋",
+              "content": "<p>\"Dělat\" fe'lining o'tgan zamondagi tuslanishi:</p>",
+              "table": {
+                "caption": "Dělat — o'tgan zamon (erkak jinsi)",
+                "headers": ["Shaxs", "Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["já (men)", {"value": "dělal jsem"}, "men qildim"],
+                  ["ty (sen)", {"value": "dělal jsi"}, "sen qilding"],
+                  ["on (u)", {"value": "dělal"}, "u qildi"],
+                  ["my (biz)", {"value": "dělali jsme"}, "biz qildik"],
+                  ["vy (siz)", {"value": "dělali jste"}, "siz qildingiz"],
+                  ["oni (ular)", {"value": "dělali"}, "ular qildi"]
+                ]
+              },
+              "warning": "Ayol jinsi uchun fe'l \"-la\" bilan tugaydi (dělala), o'rta jins uchun \"-lo\" bilan (dělalo). Bu fe'l ham jinsga qarab o'zgaradigan kam tillardan biri ekanligini ko'rsatadi."
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>O'tgan zamon haqiqiy nutqda qanday ishlatilishini ko'ramiz:</p>",
+              "examples": [
+                { "czech": "Včera jsem byl v kině.", "translation": "Kecha men kinoteatrda edim.", "note": "Byl — \"byt\" (bo'lmoq) fe'lining o'tgan zamoni" },
+                { "czech": "Co jsi dělal víkend?", "translation": "Dam olish kunlari nima qilding?", "note": "Norasmiy savol" },
+                { "czech": "Studovali jsme celý den.", "translation": "Biz kun bo'yi o'qidik.", "note": "Ko'plik, biz" },
+                { "czech": "Ona šla domů.", "translation": "U (ayol) uyga ketdi.", "note": "Šla — \"jít\" (bormoq) fe'lining ayol shakli" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Já jsem ___ (dělat o'tgan zamonda, men qildim)", "correctAnswer": ["dělal", "dělala"] },
+            { "type": "wordorder", "instruction": "Gapni to'g'ri tartibda joylashtiring:", "words": ["Včera", "jsem", "byl", "doma"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "Chex tilida o'tgan zamon nechta qismdan iborat?", "options": ["1 ta", "2 ta", "3 ta", "4 ta"], "correctAnswer": 1, "explanation": "O'tgan zamon l-shakl va yordamchi \"byt\" fe'lidan iborat (uchinchi shaxsdan tashqari)." },
+            { "id": "q2", "type": "truefalse", "question": "Uchinchi shaxs (on/ona/ono) uchun yordamchi fe'l kerak emas.", "correctAnswer": true, "explanation": "To'g'ri! \"On dělal\" — yordamchi fe'lsiz, to'g'ridan-to'g'ri ishlatiladi." },
+            { "id": "q3", "type": "single", "question": "\"Včera jsem byl v kině\" jumlasi nimani anglatadi?", "options": ["Men kinoteatrga boraman", "Kecha men kinoteatrda edim", "Men kinoni sevaman", "Ertaga kinoteatrga boraman"], "correctAnswer": 1, "explanation": "\"Včera jsem byl v kině\" — \"Kecha men kinoteatrda edim\" degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "b1-02",
+          "title": "Kelajak zamon (Budoucí čas)",
+          "description": "Kelasi zamon: tugallanmagan va tugallangan fe'llar bilan",
+          "icon": "🔮",
+          "category": "Grammatika",
+          "duration": 28,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Kelajak zamon turlari",
+              "icon": "📖",
+              "content": "<p>Chex tilida kelajak zamon fe'l turiga (tugallangan/tugallanmagan) qarab ikki xil usulda yasaladi.</p>",
+              "keyPoint": "Tugallanmagan fe'llar uchun \"budu/budeš/bude...\" + infinitiv ishlatiladi. Tugallangan fe'llar esa hozirgi zamon shaklida turib, kelajakni bildiradi."
+            },
+            {
+              "title": "\"Být\" yordamchi fe'li bilan kelajak",
+              "icon": "📋",
+              "content": "<p>Tugallanmagan fe'llar (masalan, dělat) uchun:</p>",
+              "table": {
+                "caption": "Kelajak zamon — Dělat",
+                "headers": ["Shaxs", "Chexcha"],
+                "rows": [
+                  ["já", {"value": "budu dělat"}],
+                  ["ty", {"value": "budeš dělat"}],
+                  ["on/ona", {"value": "bude dělat"}],
+                  ["my", {"value": "budeme dělat"}],
+                  ["vy", {"value": "budete dělat"}],
+                  ["oni", {"value": "budou dělat"}]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Kelajak rejalarni ifodalash:</p>",
+              "examples": [
+                { "czech": "Zítra budu pracovat.", "translation": "Ertaga men ishlayman.", "note": "Tugallanmagan fe'l" },
+                { "czech": "Příští rok pojedeme do Prahy.", "translation": "Kelasi yili biz Pragaga boramiz.", "note": "Tugallangan fe'l — hozirgi shaklda kelajakni bildiradi" },
+                { "czech": "Co budeš dělat večer?", "translation": "Kechqurun nima qilasan?", "note": "Savol shaklida" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Zítra ___ pracovat. (men ishlayman — budu)", "correctAnswer": ["budu"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "Tugallanmagan fe'llar uchun kelajak zamon qanday yasaladi?", "options": ["Faqat fe'l o'zgaradi", "Być + infinitiv", "Hech qanday o'zgarish yo'q", "Faqat o'tgan zamon ishlatiladi"], "correctAnswer": 1, "explanation": "\"Budu/budeš/bude...\" + infinitiv shaklida yasaladi." },
+            { "id": "q2", "type": "single", "question": "\"Budu dělat\" nimani anglatadi?", "options": ["Men qildim", "Men qilaman (hozir)", "Men qilaman (kelajakda)", "Men qilmoqchiman"], "correctAnswer": 2, "explanation": "\"Budu dělat\" — kelajak zamonda \"men qilaman\" degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "b1-03",
+          "title": "Refleksiv fe'llar (Se / Si)",
+          "description": "O'ziga qaratilgan harakatlarni bildiruvchi fe'llar",
+          "icon": "🔄",
+          "category": "Grammatika",
+          "duration": 25,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Refleksiv fe'llarga kirish",
+              "icon": "📖",
+              "content": "<p>Chex tilida ko'plab fe'llar <strong>se</strong> yoki <strong>si</strong> zarrachasi bilan ishlatiladi va harakat egasiga qaytishini bildiradi.</p>",
+              "keyPoint": "\"Se\" — to'g'ridan-to'g'ri to'ldiruvchi o'rnida (4-kelishik), \"si\" — qaratqich to'ldiruvchi o'rnida (3-kelishik) ishlatiladi."
+            },
+            {
+              "title": "Eng ko'p ishlatiladigan refleksiv fe'llar",
+              "icon": "📋",
+              "content": "<p>Kundalik nutqda tez-tez uchraydigan fe'llar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["jmenovat se", "ismi bo'lmoq"], ["učit se", "o'rganmoq"], ["dívat se", "qaramoq"],
+                  ["smát se", "kulmoq"], ["myslet si", "o'ylamoq"], ["přát si", "xohlamoq"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Refleksiv fe'llar gapda:</p>",
+              "examples": [
+                { "czech": "Učím se česky.", "translation": "Men chex tilini o'rganyapman." },
+                { "czech": "Myslím si, že máš pravdu.", "translation": "Men sen haqsan deb o'ylayman." },
+                { "czech": "Děti se smějí.", "translation": "Bolalar kulishyapti." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Jmenuji ___ Anna. (se — mening ismim Anna)", "correctAnswer": ["se"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Myslet si\" qaysi kelishik bilan ishlatiladi?", "options": ["4-kelishik", "3-kelishik", "2-kelishik", "Hech qaysi"], "correctAnswer": 1, "explanation": "\"Si\" zarrachasi 3-kelishik (Dativ) o'rnida ishlatiladi." }
+          ]
+        },
+        {
+          "id": "b1-04",
+          "title": "Harakat fe'llari (Jít / Chodit, Jet / Jezdit)",
+          "description": "Bir martalik va takroriy harakatni bildiruvchi fe'l juftliklari",
+          "icon": "🚶",
+          "category": "Grammatika",
+          "duration": 28,
+          "wordCount": 8,
+          "sections": [
+            {
+              "title": "Harakat fe'llarining o'ziga xosligi",
+              "icon": "📖",
+              "content": "<p>Chex tilida harakat fe'llari ikki turga bo'linadi: <strong>bir tomonlama/aniq</strong> (jít — piyoda bormoq) va <strong>takroriy/noaniq</strong> (chodit — yurib turmoq).</p>",
+              "keyPoint": "\"Jít\" — bir marta, aniq yo'nalishda borishni, \"chodit\" — odat tariqasida yoki turli yo'nalishlarda yurishni bildiradi."
+            },
+            {
+              "title": "Fe'l juftliklari",
+              "icon": "📋",
+              "content": "<p>Eng muhim harakat fe'l juftliklari:</p>",
+              "table": {
+                "headers": ["Bir martalik", "Takroriy", "Ma'no"],
+                "rows": [
+                  ["jít", "chodit", "piyoda bormoq"],
+                  ["jet", "jezdit", "transportda bormoq"],
+                  ["letět", "létat", "uchmoq"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Farqni ko'rsatuvchi gaplar:</p>",
+              "examples": [
+                { "czech": "Jdu do školy.", "translation": "Men maktabga ketyapman.", "note": "Hozir, aniq harakat" },
+                { "czech": "Chodím do školy každý den.", "translation": "Men har kuni maktabga boraman.", "note": "Odat, takroriy" },
+                { "czech": "Jedu do Prahy.", "translation": "Men Pragaga ketyapman (transportda).", "note": "Bir martalik" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Každý den ___ do práce. (chodím — har kuni ishga boraman)", "correctAnswer": ["chodím"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Chodit\" qaysi turdagi harakatni bildiradi?", "options": ["Bir martalik", "Takroriy/odat", "Faqat kelajakda", "Faqat o'tganda"], "correctAnswer": 1, "explanation": "\"Chodit\" — odat tariqasidagi, takroriy harakatni bildiradi." }
+          ]
+        },
+        {
+          "id": "b1-05",
+          "title": "Fe'l turi (Vid): tugallangan va tugallanmagan",
+          "description": "Chex fe'l sistemasidagi aspekt tushunchasi",
+          "icon": "⚖️",
+          "category": "Grammatika",
+          "duration": 30,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Aspekt nima?",
+              "icon": "📖",
+              "content": "<p>Chex tilidagi deyarli har bir fe'l ikkita shaklga ega: <strong>tugallanmagan (nedokonavý)</strong> — jarayonni, va <strong>tugallangan (dokonavý)</strong> — natijani bildiradi.</p>",
+              "keyPoint": "Tugallangan fe'llar hozirgi zamonda ishlatilmaydi — ularning hozirgi zamon shakli aslida kelajakni bildiradi!"
+            },
+            {
+              "title": "Juftlik misollari",
+              "icon": "📋",
+              "content": "<p>Aspekt juftliklari:</p>",
+              "table": {
+                "headers": ["Tugallanmagan", "Tugallangan", "Ma'no"],
+                "rows": [
+                  ["dělat", "udělat", "qilmoq"],
+                  ["psát", "napsat", "yozmoq"],
+                  ["číst", "přečíst", "o'qimoq"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Farqni tushunish uchun:</p>",
+              "examples": [
+                { "czech": "Psal jsem dopis dvě hodiny.", "translation": "Men xat yozdim (jarayon, ikki soat davomida).", "note": "Tugallanmagan — jarayonga urg'u" },
+                { "czech": "Napsal jsem dopis.", "translation": "Men xatni yozib tugatdim.", "note": "Tugallangan — natijaga urg'u" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Udělat\" — bu qaysi turdagi fe'l? ___ (tugallangan)", "correctAnswer": ["tugallangan"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "Tugallangan fe'lning hozirgi zamon shakli nimani bildiradi?", "options": ["Hozirgi zamonni", "O'tgan zamonni", "Kelajak zamonni", "Hech narsani"], "correctAnswer": 2, "explanation": "Tugallangan fe'llarning \"hozirgi zamon\" shakli aslida kelajak zamonni bildiradi." }
+          ]
+        },
+        {
+          "id": "b1-06",
+          "title": "Sabab-natija gaplar (Protože, Proto)",
+          "description": "Sabab va natijani ifodalovchi bog'lovchilar",
+          "icon": "🔗",
+          "category": "Grammatika",
+          "duration": 22,
+          "wordCount": 8,
+          "sections": [
+            {
+              "title": "Sabab-natija bog'lovchilari",
+              "icon": "📖",
+              "content": "<p>Fikrlar orasidagi sabab-natija aloqasini ifodalash uchun <strong>protože</strong> (chunki) va <strong>proto</strong> (shuning uchun) ishlatiladi.</p>",
+              "keyPoint": "\"Protože\" sababni, \"proto\" natijani kiritadi — ularning gapdagi joyiga e'tibor bering."
+            },
+            {
+              "title": "Qo'llanilishi",
+              "icon": "📋",
+              "content": "<p>Ikkala bog'lovchi turli tartibda ishlatiladi:</p>",
+              "table": {
+                "headers": ["Bog'lovchi", "Ma'no", "Joylashuvi"],
+                "rows": [
+                  ["protože", "chunki", "Natija + protože + sabab"],
+                  ["proto", "shuning uchun", "Sabab + proto + natija"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Ikkala holatni solishtiring:</p>",
+              "examples": [
+                { "czech": "Nejdu ven, protože prší.", "translation": "Men tashqariga chiqmayapman, chunki yomg'ir yog'moqda." },
+                { "czech": "Prší, proto nejdu ven.", "translation": "Yomg'ir yog'moqda, shuning uchun men tashqariga chiqmayapman." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Nejdu ven, ___ prší. (chunki — protože)", "correctAnswer": ["protože"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Proto\" qaysi qismni kiritadi?", "options": ["Sababni", "Natijani", "Shartni", "Vaqtni"], "correctAnswer": 1, "explanation": "\"Proto\" — natijani kiritadi: avval sabab, keyin \"proto\" + natija." }
+          ]
+        },
+        {
+          "id": "b1-07",
+          "title": "Bog'lovchi gaplar (Který, Která, Které)",
+          "description": "Ergash gaplarni bog'lovchi olmoshlar",
+          "icon": "🧩",
+          "category": "Grammatika",
+          "duration": 26,
+          "wordCount": 9,
+          "sections": [
+            {
+              "title": "Bog'lovchi olmoshlarga kirish",
+              "icon": "📖",
+              "content": "<p>\"Který\" (qaysi, -gan) olmoshi ergash gaplarni bosh gap bilan bog'lab, ot haqida qo'shimcha ma'lumot beradi.</p>",
+              "keyPoint": "\"Который\" otning jinsi va kelishigiga qarab o'zgaradi: který (erkak), která (ayol), které (o'rta jins)."
+            },
+            {
+              "title": "Jins bo'yicha shakllar",
+              "icon": "📋",
+              "content": "<p>Bosh kelishikdagi shakllar:</p>",
+              "table": {
+                "headers": ["Jins", "Shakl", "Misol"],
+                "rows": [
+                  ["Erkak", {"value": "který"}, "muž, který..."],
+                  ["Ayol", {"value": "která"}, "žena, která..."],
+                  ["O'rta", {"value": "které"}, "město, které..."]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Ergash gaplarda qo'llanilishi:</p>",
+              "examples": [
+                { "czech": "To je muž, který mluví česky.", "translation": "Bu chex tilida gapiradigan erkak." },
+                { "czech": "Kniha, kterou čtu, je zajímavá.", "translation": "Men o'qiyotgan kitob qiziqarli." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "To je žena, ___ pracuje v bance. (která)", "correctAnswer": ["která"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Město, které...\" gapida \"které\" nima uchun ishlatilgan?", "options": ["Erkak jinsi uchun", "Ayol jinsi uchun", "O'rta jins uchun", "Ko'plik uchun"], "correctAnswer": 2, "explanation": "\"Město\" o'rta jinsdagi ot bo'lgani uchun \"které\" ishlatiladi." }
+          ]
+        },
+        {
+          "id": "b1-08",
+          "title": "Ish va kasb haqida suhbat",
+          "description": "Ish joyida muloqot va CV haqida lug'at",
+          "icon": "💼",
+          "category": "Lug'at",
+          "duration": 24,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Ish bilan bog'liq lug'at",
+              "icon": "📖",
+              "content": "<p>Professional muhitda kerak bo'ladigan so'zlar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["pohovor", "suhbat (intervyu)"], ["životopis", "rezyume/CV"], ["plat", "maosh"],
+                  ["smlouva", "shartnoma"], ["kolega", "hamkasb"], ["šéf", "rahbar"], ["dovolená", "ta'til"]
+                ]
+              }
+            },
+            {
+              "title": "Suhbatda foydali jumlalar",
+              "icon": "💬",
+              "content": "<p>Ish intervyusida ishlatiladigan iboralar:</p>",
+              "examples": [
+                { "czech": "Mám pětileté zkušenosti v oboru.", "translation": "Mening sohada besh yillik tajribam bor." },
+                { "czech": "Jaké jsou vaše silné stránky?", "translation": "Sizning kuchli tomonlaringiz qanday?" },
+                { "czech": "Kdy mohu nastoupit?", "translation": "Qachon ishni boshlay olaman?" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Rezyume\" chexchada: ___", "correctAnswer": ["životopis"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Dovolená\" nimani anglatadi?", "options": ["Maosh", "Ta'til", "Shartnoma", "Suhbat"], "correctAnswer": 1, "explanation": "\"Dovolená\" — ta'til degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "b1-09",
+          "title": "Sayohat va turizm",
+          "description": "Mehmonxona, aeroport va sayohat tashkil qilish lug'ati",
+          "icon": "✈️",
+          "category": "Lug'at",
+          "duration": 25,
+          "wordCount": 13,
+          "sections": [
+            {
+              "title": "Sayohat lug'ati",
+              "icon": "🧳",
+              "content": "<p>Sayohat paytida kerak bo'ladigan so'zlar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["letiště", "aeroport"], ["hotel", "mehmonxona"], ["rezervace", "bron qilish"],
+                  ["pas", "pasport"], ["zavazadlo", "yuk"], ["průvodce", "gid/qo'llanma"]
+                ]
+              }
+            },
+            {
+              "title": "Mehmonxonada muloqot",
+              "icon": "🏨",
+              "content": "<p>Bron qilish va qabulxonada gaplashish:</p>",
+              "examples": [
+                { "czech": "Mám rezervaci na jméno Novák.", "translation": "Mening Novak nomiga bronim bor." },
+                { "czech": "V kolik hodin je check-in?", "translation": "Check-in soat nechada?" },
+                { "czech": "Kde je nejbližší turistická informace?", "translation": "Eng yaqin turizm ma'lumot markazi qayerda?" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Pasport\" chexchada: ___", "correctAnswer": ["pas"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Zavazadlo\" so'zi nimani anglatadi?", "options": ["Pasport", "Yuk", "Bron", "Gid"], "correctAnswer": 1, "explanation": "\"Zavazadlo\" — yuk/bagaj degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "b1-10",
+          "title": "Yangiliklar va media",
+          "description": "Yangiliklar haqida gapirish, OAV lug'ati",
+          "icon": "📰",
+          "category": "Lug'at",
+          "duration": 24,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Media bilan bog'liq so'zlar",
+              "icon": "📺",
+              "content": "<p>Yangiliklar va ommaviy axborot vositalari haqida gapirish uchun:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["zprávy", "yangiliklar"], ["noviny", "gazeta"], ["televize", "televideniye"],
+                  ["rozhlas", "radio"], ["internet", "internet"], ["článek", "maqola"]
+                ]
+              }
+            },
+            {
+              "title": "Fikr bildirish",
+              "icon": "💬",
+              "content": "<p>Yangilik haqida fikr bildirishda foydali jumlalar:</p>",
+              "examples": [
+                { "czech": "Četl jsem zajímavý článek.", "translation": "Men qiziqarli maqola o'qidim." },
+                { "czech": "Sleduji zprávy každý večer.", "translation": "Men har kechqurun yangiliklarni kuzataman." },
+                { "czech": "Co si o tom myslíš?", "translation": "Sen bu haqda nima deb o'ylaysan?" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Gazeta\" chexchada: ___", "correctAnswer": ["noviny"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Rozhlas\" nimani anglatadi?", "options": ["Televideniye", "Radio", "Gazeta", "Internet"], "correctAnswer": 1, "explanation": "\"Rozhlas\" — radio degan ma'noni bildiradi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "name": "B2 — Yuqori o'rta daraja",
+      "description": "Murakkab gap tuzilishlari, shartli mayl, fikr-mulohaza bildirish",
+      "lessons": [
+        {
+          "id": "b2-01",
+          "title": "Shartli mayl (Kondicionál)",
+          "description": "Chex tilida shart va istaklarni ifodalash",
+          "icon": "🔀",
+          "category": "Grammatika",
+          "duration": 30,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Shartli maylga kirish",
+              "icon": "📖",
+              "content": "<p>Chex tilida shartli mayl (kondicionál) — \"agar...bo'lsa\", \"...gan bo'lardim\" kabi ma'nolarni ifodalash uchun ishlatiladi. U <strong>l-shakl</strong> va maxsus yordamchi so'zlar (bych, bys, by, bychom, byste, by) yordamida yasaladi.</p>",
+              "keyPoint": "Shartli mayl hurmat bildirish uchun ham ishlatiladi: \"Chtěl bych\" (Men xohlardim) — \"Chci\" (Men xohlayman) dan ko'ra ancha odobliroq."
+            },
+            {
+              "title": "Yasalish jadvali",
+              "icon": "📋",
+              "content": "<p>\"Chtít\" (xohlamoq) fe'li misolida:</p>",
+              "table": {
+                "caption": "Shartli mayl — Chtít (xohlamoq)",
+                "headers": ["Shaxs", "Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["já (men)", {"value": "chtěl bych"}, "men xohlardim"],
+                  ["ty (sen)", {"value": "chtěl bys"}, "sen xohlardingiz"],
+                  ["on (u)", {"value": "chtěl by"}, "u xohlardi"],
+                  ["my (biz)", {"value": "chtěli bychom"}, "biz xohlardik"],
+                  ["vy (siz)", {"value": "chtěli byste"}, "siz xohlardingiz"],
+                  ["oni (ular)", {"value": "chtěli by"}, "ular xohlardi"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy qo'llanilishi",
+              "icon": "💬",
+              "content": "<p>Shartli mayl odob-axloqli so'rovlar va shartli gaplarda keng qo'llaniladi:</p>",
+              "examples": [
+                { "czech": "Chtěl bych kávu, prosím.", "translation": "Men kofe xohlardim, iltimos.", "note": "Odobli so'rov, kafe/restoranda" },
+                { "czech": "Kdybych měl čas, šel bych s tebou.", "translation": "Agar vaqtim bo'lsa, sen bilan borardim.", "note": "Shart gap" },
+                { "czech": "Mohl byste mi pomoct?", "translation": "Menga yordam bera olarmidingiz?", "note": "Juda odobli so'rov" },
+                { "czech": "Měli bychom jít.", "translation": "Biz borishimiz kerak edi.", "note": "Tavsiya/maslahat" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Chtěl ___ kávu. (men xohlardim)", "correctAnswer": ["bych"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Chtěl bych\" iborasi nimani anglatadi?", "options": ["Men xohlayman", "Men xohlardim", "Men xohlagan edim", "Men xohlamayman"], "correctAnswer": 1, "explanation": "\"Chtěl bych\" — odobli shaklda \"men xohlardim\" degan ma'noni bildiradi." },
+            { "id": "q2", "type": "single", "question": "Shartli mayl nima uchun ham ishlatiladi?", "options": ["Faqat shart gaplarda", "Faqat savol gaplarda", "Odob bildirish va shart gaplarda", "Faqat o'tgan zamonda"], "correctAnswer": 2, "explanation": "Shartli mayl ham shart gaplarni, ham odobli so'rovlarni ifodalash uchun ishlatiladi." }
+          ]
+        },
+        {
+          "id": "b2-02",
+          "title": "Passiv nisbat (Trpný rod)",
+          "description": "Harakatning ob'ektga qaratilgan shaklini ifodalash",
+          "icon": "🔄",
+          "category": "Grammatika",
+          "duration": 28,
+          "wordCount": 9,
+          "sections": [
+            {
+              "title": "Passiv nisbatga kirish",
+              "icon": "📖",
+              "content": "<p>Passiv nisbat (trpný rod) harakat qiluvchi shaxsdan ko'ra harakat ob'ektiga e'tibor qaratganda ishlatiladi. Chex tilida ikki xil passiv mavjud: <strong>být + sifatdosh</strong> va <strong>refleksiv (se)</strong> passiv.</p>",
+              "keyPoint": "\"Dopis je napsán\" (Xat yozilgan) — \"być\" + o'tgan zamon sifatdoshi yordamida yasalgan klassik passiv."
+            },
+            {
+              "title": "Ikki passiv turi",
+              "icon": "📋",
+              "content": "<p>Ikkala turning solishtirmasi:</p>",
+              "table": {
+                "headers": ["Tur", "Misol", "Tarjima"],
+                "rows": [
+                  ["Být passiv", {"value": "Dům je postaven."}, "Uy qurilgan."],
+                  ["Se passiv", {"value": "To se dělá takto."}, "Bu shunday qilinadi."]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Passiv nisbat rasmiy va yozma nutqda ko'p ishlatiladi:</p>",
+              "examples": [
+                { "czech": "Smlouva byla podepsána včera.", "translation": "Shartnoma kecha imzolangan." },
+                { "czech": "V Česku se mluví česky.", "translation": "Chexiyada chexcha gapiriladi." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Dům je ___ (postaven — qurilgan)", "correctAnswer": ["postaven"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "Passiv nisbat asosan qaysi nutqda ko'p ishlatiladi?", "options": ["Norasmiy", "Rasmiy/yozma", "Faqat she'riy", "Faqat bolalar nutqida"], "correctAnswer": 1, "explanation": "Passiv nisbat ko'proq rasmiy va yozma nutqda uchraydi." }
+          ]
+        },
+        {
+          "id": "b2-03",
+          "title": "Qaratqich kelishik chuqur tahlili (2. pád)",
+          "description": "Genitiv kelishigining murakkab qo'llanilishi",
+          "icon": "📐",
+          "category": "Grammatika",
+          "duration": 27,
+          "wordCount": 8,
+          "sections": [
+            {
+              "title": "2-kelishikning kengaytirilgan qo'llanilishi",
+              "icon": "📖",
+              "content": "<p>2-kelishik (Genitiv) nafaqat egalikni, balki miqdor, inkor va ko'plab predloglar bilan ishlatiladi.</p>",
+              "keyPoint": "Inkor gaplarda to'g'ri to'ldiruvchi ko'pincha 4-kelishikdan 2-kelishikka o'tadi: \"Nemám čas\" emas, balki tushunchani mustahkamlash kerak."
+            },
+            {
+              "title": "Predloglar bilan ishlatilishi",
+              "icon": "📋",
+              "content": "<p>2-kelishik bilan ishlatiladigan asosiy predloglar:</p>",
+              "table": {
+                "headers": ["Predlog", "Ma'no", "Misol"],
+                "rows": [
+                  ["bez", "...siz", "bez peněz (pulsiz)"],
+                  ["během", "davomida", "během roku (yil davomida)"],
+                  ["kvůli", "tufayli", "kvůli počasí (ob-havo tufayli)"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Genitiv murakkab gaplarda:</p>",
+              "examples": [
+                { "czech": "Nemám dost peněz.", "translation": "Mening yetarli pulim yo'q." },
+                { "czech": "Kvůli dešti jsme zůstali doma.", "translation": "Yomg'ir tufayli biz uyda qoldik." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Bez ___ (peníze — pulsiz, 2-kelishikda: peněz)", "correctAnswer": ["peněz"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Kvůli\" predlogi qaysi kelishik bilan ishlatiladi?", "options": ["1-kelishik", "2-kelishik", "3-kelishik", "4-kelishik"], "correctAnswer": 1, "explanation": "\"Kvůli\" — 2-kelishik (Genitiv) bilan ishlatiladi." }
+          ]
+        },
+        {
+          "id": "b2-04",
+          "title": "Fe'l boshqaruvi (Slovesná vazba)",
+          "description": "Fe'llar qaysi kelishik yoki predlog talab qilishi",
+          "icon": "🔧",
+          "category": "Grammatika",
+          "duration": 26,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Fe'l boshqaruviga kirish",
+              "icon": "📖",
+              "content": "<p>Har bir chex fe'li ma'lum bir kelishik yoki predlog bilan birga ishlatiladi — bu \"fe'l boshqaruvi\" deb ataladi va alohida yodlanishi kerak.</p>",
+              "keyPoint": "Masalan \"bát se\" (qo'rqmoq) — 2-kelishik bilan; \"věřit\" (ishonmoq) — 3-kelishik bilan ishlatiladi."
+            },
+            {
+              "title": "Fe'l + kelishik jadvali",
+              "icon": "📋",
+              "content": "<p>Eng ko'p xato qilinadigan fe'llar:</p>",
+              "table": {
+                "headers": ["Fe'l", "Kelishik/Predlog", "Misol"],
+                "rows": [
+                  ["bát se", "2-kelishik", "Bojím se psa."],
+                  ["věřit", "3-kelishik", "Věřím ti."],
+                  ["zajímat se o", "4-kelishik + o", "Zajímám se o hudbu."]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>To'g'ri boshqaruv bilan gaplar:</p>",
+              "examples": [
+                { "czech": "Bojím se pavouků.", "translation": "Men o'rgimchaklardan qo'rqaman." },
+                { "czech": "Zajímám se o historii.", "translation": "Men tarixga qiziqaman." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Věřím ___ (ty — 3-kelishikda: ti)", "correctAnswer": ["ti"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Bát se\" fe'li qaysi kelishik bilan ishlatiladi?", "options": ["1-kelishik", "2-kelishik", "3-kelishik", "4-kelishik"], "correctAnswer": 1, "explanation": "\"Bát se\" — 2-kelishik bilan ishlatiladi: bojím se čeho?" }
+          ]
+        },
+        {
+          "id": "b2-05",
+          "title": "Ergash gaplar va bog'lovchilar",
+          "description": "Murakkab qo'shma gaplarni tuzish",
+          "icon": "🧩",
+          "category": "Grammatika",
+          "duration": 28,
+          "wordCount": 9,
+          "sections": [
+            {
+              "title": "Ergash gap turlari",
+              "icon": "📖",
+              "content": "<p>B2 darajasida murakkab fikrni ifodalash uchun turli ergash gap bog'lovchilarini bilish zarur: shart, maqsad, vaqt, qiyoslash.</p>",
+              "keyPoint": "\"Aby\" (...uchun) maqsad ergash gaplarida ishlatiladi va undan keyingi fe'l shartli mayl shaklida bo'ladi."
+            },
+            {
+              "title": "Asosiy bog'lovchilar",
+              "icon": "📋",
+              "content": "<p>Ergash gap turlari va bog'lovchilari:</p>",
+              "table": {
+                "headers": ["Bog'lovchi", "Turi", "Ma'no"],
+                "rows": [
+                  ["aby", "Maqsad", "...uchun, ...gan maqsadda"],
+                  ["jakmile", "Vaqt", "...gan zahoti"],
+                  ["jako kdyby", "Qiyoslash", "...gandek"]
+                ]
+              }
+            },
+            {
+              "title": "Amaliy misollar",
+              "icon": "💬",
+              "content": "<p>Murakkab gaplar:</p>",
+              "examples": [
+                { "czech": "Učím se, abych složil zkoušku.", "translation": "Men imtihondan o'tish uchun o'qiyapman." },
+                { "czech": "Jakmile přijdu domů, zavolám ti.", "translation": "Uyga kelgan zahotim senga qo'ng'iroq qilaman." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Učím se, ___ složil zkoušku. (aby)", "correctAnswer": ["abych"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Aby\" bog'lovchisi qaysi turdagi ergash gapni kiritadi?", "options": ["Sabab", "Maqsad", "Vaqt", "Shart"], "correctAnswer": 1, "explanation": "\"Aby\" — maqsad ergash gaplarini kiritadi." }
+          ]
+        },
+        {
+          "id": "b2-06",
+          "title": "Biznes muloqoti",
+          "description": "Ish uchrashuvlari va rasmiy yozishmalar uchun lug'at",
+          "icon": "📊",
+          "category": "Lug'at",
+          "duration": 26,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Biznes lug'ati",
+              "icon": "💼",
+              "content": "<p>Professional muhitda kerak bo'ladigan so'zlar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["jednání", "muzokara/uchrashuv"], ["prezentace", "taqdimot"], ["zákazník", "mijoz"],
+                  ["nabídka", "taklif"], ["faktura", "hisob-faktura"], ["termín", "muddat/uchrashuv vaqti"]
+                ]
+              }
+            },
+            {
+              "title": "Rasmiy yozishmalarda",
+              "icon": "✉️",
+              "content": "<p>Email va rasmiy xat boshlanishi/tugashi:</p>",
+              "examples": [
+                { "czech": "Vážený pane Nováku,", "translation": "Hurmatli janob Novak," },
+                { "czech": "S pozdravem,", "translation": "Hurmat bilan," },
+                { "czech": "Děkuji za Vaši odpověď.", "translation": "Javobingiz uchun rahmat." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Taqdimot\" chexchada: ___", "correctAnswer": ["prezentace"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Faktura\" nimani anglatadi?", "options": ["Taklif", "Hisob-faktura", "Uchrashuv", "Mijoz"], "correctAnswer": 1, "explanation": "\"Faktura\" — hisob-faktura degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "b2-07",
+          "title": "Fikr va munosabat bildirish",
+          "description": "Rozilik, norozilik va shaxsiy fikrni ifodalash",
+          "icon": "💭",
+          "category": "Lug'at",
+          "duration": 24,
+          "wordCount": 11,
+          "sections": [
+            {
+              "title": "Fikr bildirish iboralari",
+              "icon": "📖",
+              "content": "<p>Muloqotda o'z fikringizni nuanslar bilan ifodalash uchun foydali iboralar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["Podle mě...", "Menimcha..."], ["Souhlasím s tím.", "Men bunga roziman."],
+                  ["Nesouhlasím.", "Men rozi emasman."], ["Mám pocit, že...", "Menda shunday tuyg'u borki..."]
+                ]
+              }
+            },
+            {
+              "title": "Bahslashish va qarshi fikr",
+              "icon": "💬",
+              "content": "<p>Muloqotda muqobil fikrlar:</p>",
+              "examples": [
+                { "czech": "Na jednu stranu..., na druhou stranu...", "translation": "Bir tomondan..., boshqa tomondan..." },
+                { "czech": "To je sice pravda, ale...", "translation": "Bu rost, lekin..." },
+                { "czech": "Z mého pohledu...", "translation": "Mening nuqtai nazarimdan..." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Menimcha\" — Podle ___.", "correctAnswer": ["mě"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Nesouhlasím\" nimani bildiradi?", "options": ["Men roziman", "Men rozi emasman", "Men bilmayman", "Men tushunmayman"], "correctAnswer": 1, "explanation": "\"Nesouhlasím\" — \"men rozi emasman\" degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "b2-08",
+          "title": "Ekologiya va jamiyat",
+          "description": "Ijtimoiy va ekologik mavzularda muloqot",
+          "icon": "🌍",
+          "category": "Lug'at",
+          "duration": 27,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Ekologiya lug'ati",
+              "icon": "🌱",
+              "content": "<p>Atrof-muhit va jamiyat masalalari haqida gapirish uchun so'zlar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["životní prostředí", "atrof-muhit"], ["recyklace", "qayta ishlash"],
+                  ["znečištění", "ifloslanish"], ["udržitelnost", "barqarorlik"], ["klimatická změna", "iqlim o'zgarishi"]
+                ]
+              }
+            },
+            {
+              "title": "Mavzu bo'yicha fikr bildirish",
+              "icon": "💬",
+              "content": "<p>Ijtimoiy mavzularda muhokama:</p>",
+              "examples": [
+                { "czech": "Měli bychom více recyklovat.", "translation": "Biz ko'proq qayta ishlashimiz kerak." },
+                { "czech": "Klimatická změna je vážný problém.", "translation": "Iqlim o'zgarishi jiddiy muammo." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Atrof-muhit\" chexchada: životní ___", "correctAnswer": ["prostředí"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Udržitelnost\" so'zi nimani anglatadi?", "options": ["Ifloslanish", "Barqarorlik", "Qayta ishlash", "Iqlim"], "correctAnswer": 1, "explanation": "\"Udržitelnost\" — barqarorlik degan ma'noni bildiradi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "name": "C1 — Yuqori daraja",
+      "description": "Murakkab matnlar, idiomalar, professional muloqot",
+      "lessons": [
+        {
+          "id": "c1-01",
+          "title": "Murakkab gap birikmalari va idiomalar",
+          "description": "Yuqori darajadagi nutq uchun zarur birikmalar va idiomatik iboralar",
+          "icon": "🎓",
+          "category": "Grammatika",
+          "duration": 35,
+          "wordCount": 15,
+          "sections": [
+            {
+              "title": "Murakkab bog'lovchilar",
+              "icon": "📖",
+              "content": "<p>C1 darajasida nutq murakkab bog'lovchilar va ko'chma ma'noli iboralar bilan boyitiladi. Bu sizning fikringizni aniqroq va nuanslar bilan ifodalash imkonini beradi.</p>",
+              "keyPoint": "Professional va akademik kontekstda \"nicméně\", \"vzhledem k tomu, že\", \"i přesto, že\" kabi murakkab birikmalar tez-tez ishlatiladi."
+            },
+            {
+              "title": "Foydali birikmalar jadvali",
+              "icon": "📋",
+              "content": "<p>Yuqori darajadagi nutqda ko'p uchraydigan birikmalar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha", "Qo'llanilishi"],
+                "rows": [
+                  ["vzhledem k tomu, že", "...ligini hisobga olgan holda", "Sabab bildirish"],
+                  ["i přesto, že", "...bo'lishiga qaramay", "Qarama-qarshilik"],
+                  ["s ohledem na", "...ga nisbatan", "Munosabat bildirish"],
+                  ["v důsledku", "natijasida", "Oqibat"],
+                  ["na rozdíl od", "...dan farqli o'laroq", "Taqqoslash"]
+                ]
+              }
+            },
+            {
+              "title": "Idiomatik iboralar",
+              "icon": "💬",
+              "content": "<p>Tabiiy nutq uchun idiomalarni bilish muhim:</p>",
+              "examples": [
+                { "czech": "Mít hlavu v oblacích.", "translation": "Boshi bulutlarda bo'lmoq (xayolparast bo'lmoq).", "note": "Ingliz tilidagi \"head in the clouds\" ga o'xshash" },
+                { "czech": "Házet flintu do žita.", "translation": "Miltiqni javdarga tashlamoq (taslim bo'lmoq).", "note": "Umidsizlikka tushish ma'nosida" },
+                { "czech": "Mít máslo na hlavě.", "translation": "Boshida sariyog' bo'lmoq (aybdor bo'lmoq).", "note": "Yashirin aybi bor degan ma'noda" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"___ k tomu, že\" — (hisobga olgan holda)", "correctAnswer": ["Vzhledem", "vzhledem"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Mít hlavu v oblacích\" idiomasi nimani anglatadi?", "options": ["Aqlli bo'lmoq", "Xayolparast bo'lmoq", "Baland bo'ymoq", "Charchagan bo'lmoq"], "correctAnswer": 1, "explanation": "\"Boshi bulutlarda\" — xayolparast, real hayotdan uzoq odam haqida aytiladi." },
+            { "id": "q2", "type": "single", "question": "\"Na rozdíl od\" birikmasi qaysi ma'noni bildiradi?", "options": ["O'xshashlik", "Sabab", "Farq/taqqoslash", "Vaqt"], "correctAnswer": 2, "explanation": "\"Na rozdíl od\" — \"...dan farqli o'laroq\" degan ma'noda taqqoslash uchun ishlatiladi." }
+          ]
+        },
+        {
+          "id": "c1-02",
+          "title": "Rasmiy va norasmiy uslub (Styl)",
+          "description": "Nutq registrlarini farqlash va to'g'ri qo'llash",
+          "icon": "🎭",
+          "category": "Grammatika",
+          "duration": 30,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Nutq registrlari",
+              "icon": "📖",
+              "content": "<p>Chex tilida rasmiy (spisovná čeština), neytral va so'zlashuv (obecná čeština) registrlari mavjud bo'lib, ular nafaqat so'z tanlashda, balki grammatik shakllarda ham farqlanadi.</p>",
+              "keyPoint": "So'zlashuv chex tilida (Obecná čeština) \"-ý\" o'rniga \"-ej\" qo'llaniladi: \"malý\" → \"malej\". Bu rasmiy yozma matnda noto'g'ri hisoblanadi."
+            },
+            {
+              "title": "Registrlar taqqoslamasi",
+              "icon": "📋",
+              "content": "<p>Rasmiy va so'zlashuv shakllarining farqi:</p>",
+              "table": {
+                "headers": ["Rasmiy (Spisovná)", "So'zlashuv (Obecná)", "Ma'no"],
+                "rows": [
+                  ["dobrý", "dobrej", "yaxshi"],
+                  ["co to je?", "co je to?", "bu nima?"],
+                  ["nevím", "nevim", "bilmayman"]
+                ]
+              },
+              "warning": "Akademik va rasmiy hujjatlarda faqat \"spisovná čeština\" (adabiy til) ishlatilishi shart."
+            },
+            {
+              "title": "Qachon qaysi uslubni ishlatish",
+              "icon": "💬",
+              "content": "<p>Kontekstga mos uslub tanlash:</p>",
+              "examples": [
+                { "czech": "Vážený pane řediteli...", "translation": "Hurmatli janob direktor...", "note": "Rasmiy yozishma" },
+                { "czech": "Ahoj, jak je?", "translation": "Salom, qalaysan?", "note": "Norasmiy, do'stlar orasida" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Rasmiy uslubda \"dobrej\" o'rniga qaysi shakl ishlatiladi? ___", "correctAnswer": ["dobrý"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Obecná čeština\" qayerda ishlatilishi noto'g'ri hisoblanadi?", "options": ["Do'stlar suhbatida", "Rasmiy hujjatlarda", "Bozorda", "Uyda"], "correctAnswer": 1, "explanation": "So'zlashuv tili rasmiy hujjatlar va akademik matnlarda ishlatilmaydi." }
+          ]
+        },
+        {
+          "id": "c1-03",
+          "title": "Murakkab sintaksis va gap qurilishi",
+          "description": "Ko'p qavatli qo'shma gaplarni qurish va tahlil qilish",
+          "icon": "🏗️",
+          "category": "Grammatika",
+          "duration": 32,
+          "wordCount": 10,
+          "sections": [
+            {
+              "title": "Murakkab gap qurilishi",
+              "icon": "📖",
+              "content": "<p>Yuqori darajadagi matnlarda bir nechta ergash gap birlashtirilgan murakkab qo'shma gaplar uchraydi. Bunday gaplarni to'g'ri qurish va tushunish C1 darajasining asosiy ko'nikmasi hisoblanadi.</p>",
+              "keyPoint": "Murakkab gapda vergul qoidalari muhim: har bir ergash gap bosh gapdan vergul bilan ajratiladi."
+            },
+            {
+              "title": "Misol: ko'p qavatli gap",
+              "icon": "📋",
+              "content": "<p>Quyidagi gapni qismlarga ajratib ko'ramiz:</p>",
+              "examples": [
+                { "czech": "Ačkoliv jsem věděl, že to bude těžké, rozhodl jsem se, že to zkusím, protože jsem nechtěl litovat.", "translation": "Garchi bu qiyin bo'lishini bilsam ham, urinib ko'rishga qaror qildim, chunki afsuslanishni xohlamadim.", "note": "3 ta ergash gap birlashgan: qarama-qarshilik + izoh + sabab" }
+              ]
+            },
+            {
+              "title": "Gap qismlarini bog'lash",
+              "icon": "💬",
+              "content": "<p>Murakkab fikrni izchil ifodalash uchun foydali birikmalar:</p>",
+              "examples": [
+                { "czech": "Nejenže..., ale také...", "translation": "Nafaqat..., balki ham..." },
+                { "czech": "Čím..., tím...", "translation": "Qancha..., shuncha..." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Čím víc pracuji, ___ víc se učím.\" (tím)", "correctAnswer": ["tím"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Nejenže..., ale také...\" qaysi ma'noni bildiradi?", "options": ["Yoki..., yoki...", "Nafaqat..., balki ham...", "Garchi..., shunga qaramay...", "Agar..., u holda..."], "correctAnswer": 1, "explanation": "\"Nejenže..., ale také...\" — \"nafaqat..., balki ham...\" degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "c1-04",
+          "title": "Adabiy til va badiiy uslub",
+          "description": "Badiiy matnlarni tushunish va tahlil qilish",
+          "icon": "📚",
+          "category": "Grammatika",
+          "duration": 30,
+          "wordCount": 11,
+          "sections": [
+            {
+              "title": "Badiiy uslubning xususiyatlari",
+              "icon": "📖",
+              "content": "<p>Adabiy matnlarda metafora, epitet va boshqa badiiy vositalar keng qo'llaniladi. Bu darajada chex adabiyotidagi klassik uslublarni tanish muhim.</p>",
+              "keyPoint": "Chex adabiyotida so'z tartibi ko'pincha emotsional urg'u uchun o'zgartiriladi — bu \"aktuální členění větné\" deb ataladi."
+            },
+            {
+              "title": "Badiiy vositalar",
+              "icon": "📋",
+              "content": "<p>Matn tahlilida uchraydigan asosiy tushunchalar:</p>",
+              "table": {
+                "headers": ["Atama", "Ma'no"],
+                "rows": [
+                  ["metafora", "ko'chma ma'no"],
+                  ["přirovnání", "qiyoslash, o'xshatish"],
+                  ["personifikace", "jonlantirish"]
+                ]
+              }
+            },
+            {
+              "title": "Misol tahlili",
+              "icon": "💬",
+              "content": "<p>Badiiy parchadan namuna:</p>",
+              "examples": [
+                { "czech": "Slunce se smálo nad krajinou.", "translation": "Quyosh manzara ustida kulardi.", "note": "Personifikatsiya — quyoshga inson xususiyati berilgan" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Jonlantirish (insonga xos xususiyatni narsaga berish) chexcha qanday ataladi? ___", "correctAnswer": ["personifikace"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Přirovnání\" nimani anglatadi?", "options": ["Jonlantirish", "Qiyoslash/o'xshatish", "Ko'chma ma'no", "Vazn"], "correctAnswer": 1, "explanation": "\"Přirovnání\" — qiyoslash, o'xshatish degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "c1-05",
+          "title": "Frazeologizmlar va maqollar",
+          "description": "Chex tilidagi barqaror iboralar va xalq donishmandligi",
+          "icon": "🗣️",
+          "category": "Lug'at",
+          "duration": 28,
+          "wordCount": 14,
+          "sections": [
+            {
+              "title": "Frazeologizmlarning ahamiyati",
+              "icon": "📖",
+              "content": "<p>Frazeologizmlarni bilish — tilni ona tili darajasida tushunishning belgisi. Ular ko'chma ma'noga ega va so'zma-so'z tarjima qilib bo'lmaydi.</p>"
+            },
+            {
+              "title": "Mashhur maqollar",
+              "icon": "📋",
+              "content": "<p>Chex xalq maqollari:</p>",
+              "table": {
+                "headers": ["Chexcha", "Ma'nosi"],
+                "rows": [
+                  ["Bez práce nejsou koláče.", "Mehnatsiz natija yo'q (so'zma-so'z: ishsiz pirog yo'q)"],
+                  ["Co oči nevidí, srdce nebolí.", "Ko'z ko'rmasa, ko'ngil og'rimaydi"],
+                  ["Kdo jinému jámu kopá, sám do ní padá.", "Boshqaga chuqur qazigan o'zi tushadi"]
+                ]
+              }
+            },
+            {
+              "title": "Kundalik frazeologizmlar",
+              "icon": "💬",
+              "content": "<p>Suhbatda ko'p ishlatiladigan iboralar:</p>",
+              "examples": [
+                { "czech": "Mít pod čepicí.", "translation": "Aqlli bo'lmoq (so'zma-so'z: qalpoq ostida bor)" },
+                { "czech": "Lámat si hlavu.", "translation": "Bosh qotirmoq" }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Bosh qotirmoq\" — Lámat si ___.", "correctAnswer": ["hlavu"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "\"Co oči nevidí, srdce nebolí\" maqolining ma'nosi nima?", "options": ["Mehnat qil", "Ko'rmasang, qayg'urmaysan", "Vaqt — pul", "Sabr — kalit"], "correctAnswer": 1, "explanation": "Bu maqol \"ko'z ko'rmasa, ko'ngil og'rimaydi\" degan ma'noni bildiradi." }
+          ]
+        },
+        {
+          "id": "c1-06",
+          "title": "Professional yozishmalar",
+          "description": "Rasmiy hujjat va elektron xat yozish qoidalari",
+          "icon": "📧",
+          "category": "Yozish",
+          "duration": 30,
+          "wordCount": 13,
+          "sections": [
+            {
+              "title": "Rasmiy xat tuzilishi",
+              "icon": "📖",
+              "content": "<p>Professional elektron xat aniq tuzilishga ega bo'lishi kerak: murojaat, kirish, asosiy qism, xulosa va imzo.</p>",
+              "keyPoint": "Rasmiy xatda har doim \"Vy\" formasi (siz) ishlatiladi, hatto bitta kishiga murojaat qilinganda ham bosh harf bilan yoziladi: \"Vám\", \"Váš\"."
+            },
+            {
+              "title": "Xat qismlari",
+              "icon": "📋",
+              "content": "<p>Standart rasmiy xat tuzilishi:</p>",
+              "table": {
+                "headers": ["Qism", "Misol"],
+                "rows": [
+                  ["Murojaat", "Vážená paní doktorko,"],
+                  ["Kirish", "Obracím se na Vás ve věci..."],
+                  ["Xulosa", "Předem děkuji za Vaši odpověď."],
+                  ["Imzo", "S úctou, [Ism]"]
+                ]
+              }
+            },
+            {
+              "title": "Foydali iboralar",
+              "icon": "💬",
+              "content": "<p>Professional yozishmada keng tarqalgan iboralar:</p>",
+              "examples": [
+                { "czech": "V příloze zasílám...", "translation": "Ilovada yuboryapman..." },
+                { "czech": "Prosím o potvrzení přijetí.", "translation": "Qabul qilinganini tasdiqlashingizni so'rayman." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "Rasmiy xat \"hurmat bilan\" so'zi bilan tugaydi: S ___.", "correctAnswer": ["úctou"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "Rasmiy xatda \"siz\" olmoshi qanday yoziladi?", "options": ["kichik harf bilan: vy", "Bosh harf bilan: Vy", "Umuman yozilmaydi", "Faqat ko'plikda"], "correctAnswer": 1, "explanation": "Rasmiy yozishmada hurmat ko'rsatish uchun \"Vy\", \"Vám\", \"Váš\" bosh harf bilan yoziladi." }
+          ]
+        },
+        {
+          "id": "c1-07",
+          "title": "Bahs va argumentatsiya",
+          "description": "Fikrni asoslash va munozarada qatnashish",
+          "icon": "⚖️",
+          "category": "Yozish",
+          "duration": 32,
+          "wordCount": 12,
+          "sections": [
+            {
+              "title": "Argumentatsiya tuzilishi",
+              "icon": "📖",
+              "content": "<p>Akademik va professional bahsda fikrni mantiqiy asoslash muhim: tezis, dalil, misol va xulosa ketma-ketligi.</p>",
+              "keyPoint": "Kuchli argument har doim aniq dalil yoki misol bilan qo'llab-quvvatlanishi kerak — shunchaki fikr bildirish yetarli emas."
+            },
+            {
+              "title": "Argumentatsiya birikmalari",
+              "icon": "📋",
+              "content": "<p>Fikrni tuzilgan tarzda ifodalash uchun:</p>",
+              "table": {
+                "headers": ["Birikma", "Vazifasi"],
+                "rows": [
+                  ["za prvé / za druhé", "Birinchidan / ikkinchidan"],
+                  ["z toho vyplývá, že", "Bundan kelib chiqadiki"],
+                  ["na základě toho", "Shu asosda"]
+                ]
+              }
+            },
+            {
+              "title": "Munozarada qarshi fikrga javob",
+              "icon": "💬",
+              "content": "<p>Qarshi argumentga muloyim javob berish:</p>",
+              "examples": [
+                { "czech": "Rozumím vašemu názoru, nicméně...", "translation": "Fikringizni tushunaman, biroq..." },
+                { "czech": "To je platný argument, ale je třeba zvážit i...", "translation": "Bu asosli dalil, lekin ...ni ham hisobga olish kerak." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "\"Bundan kelib chiqadiki\" — Z toho ___, že", "correctAnswer": ["vyplývá"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "Kuchli argument nima bilan qo'llab-quvvatlanishi kerak?", "options": ["Shaxsiy fikr bilan", "Dalil yoki misol bilan", "Hissiyot bilan", "Ovoz balandligi bilan"], "correctAnswer": 1, "explanation": "Argument ishonarli bo'lishi uchun aniq dalil yoki misol bilan asoslanishi kerak." }
+          ]
+        },
+        {
+          "id": "c1-08",
+          "title": "Chex madaniyati va tarixi",
+          "description": "Chexiya tarixi va madaniyati haqida chuqur bilim",
+          "icon": "🏰",
+          "category": "Lug'at",
+          "duration": 30,
+          "wordCount": 13,
+          "sections": [
+            {
+              "title": "Tarixiy kontekst",
+              "icon": "📖",
+              "content": "<p>Chex tilini chuqur tushunish uchun mamlakat tarixi va madaniyatini bilish muhim. Bu yakuniy darsda asosiy tarixiy va madaniy tushunchalarni ko'rib chiqamiz.</p>"
+            },
+            {
+              "title": "Muhim tarixiy atamalar",
+              "icon": "📋",
+              "content": "<p>Tarix va madaniyatga oid asosiy so'zlar:</p>",
+              "table": {
+                "headers": ["Chexcha", "O'zbekcha"],
+                "rows": [
+                  ["sametová revoluce", "baxmal inqilob (1989)"], ["habsburská monarchie", "Habsburg monarxiyasi"],
+                  ["Karel IV.", "Karl IV (Chexiya tarixidagi muhim qirol)"], ["dědictví UNESCO", "YUNESKO merosi"]
+                ]
+              },
+              "tip": "Praga Old Town markazi YUNESKOning Jahon merosi ro'yxatiga kiritilgan va O'rta asr arxitekturasi bilan mashhur."
+            },
+            {
+              "title": "Madaniy an'analar",
+              "icon": "🎭",
+              "content": "<p>Chex madaniyatining muhim qismlari:</p>",
+              "examples": [
+                { "czech": "České pivo má dlouhou tradici.", "translation": "Chex pivosi uzoq an'anaga ega." },
+                { "czech": "Praha je nazývána \"stověžatá\".", "translation": "Praga \"yuz minorali shahar\" deb ataladi." }
+              ]
+            }
+          ],
+          "exercises": [
+            { "type": "fillblank", "question": "1989-yilgi inqilob chexchada qanday ataladi? sametová ___", "correctAnswer": ["revoluce"] }
+          ],
+          "quiz": [
+            { "id": "q1", "type": "single", "question": "1989-yilgi tinch inqilob qanday nomlanadi?", "options": ["Qizil inqilob", "Baxmal inqilob", "Yashil inqilob", "Oltin inqilob"], "correctAnswer": 1, "explanation": "1989-yilgi tinch o'tgan inqilob \"sametová revoluce\" (baxmal inqilob) deb ataladi." },
+            { "id": "q2", "type": "single", "question": "Praga qanday laqab bilan mashhur?", "options": ["Oltin shahar", "Yuz minorali shahar", "Quyosh shahri", "Gullar shahri"], "correctAnswer": 1, "explanation": "Praga ko'plab cherkov minoralari tufayli \"stověžatá\" (yuz minorali) deb ataladi." }
+          ]
+        }
+      ]
+    }
+  ]
+}

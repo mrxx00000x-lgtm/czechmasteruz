@@ -1,0 +1,29 @@
+{
+  "achievements": [
+    { "id": "first_lesson", "icon": "🎓", "name": "Birinchi qadam", "description": "Birinchi darsni tugatdingiz" },
+    { "id": "lessons_10", "icon": "📚", "name": "Bilim ishqibozi", "description": "10 ta darsni tugatdingiz" },
+    { "id": "lessons_25", "icon": "🏅", "name": "Tajribali o'quvchi", "description": "25 ta darsni tugatdingiz" },
+    { "id": "lessons_50", "icon": "🥇", "name": "Yarim yo'l", "description": "50 ta darsni tugatdingiz" },
+    { "id": "lessons_100", "icon": "👑", "name": "CzechMaster", "description": "100 ta darsni tugatdingiz" },
+
+    { "id": "streak_3", "icon": "🔥", "name": "Qizg'in boshlanish", "description": "3 kun ketma-ket mashq qildingiz" },
+    { "id": "streak_7", "icon": "⚡", "name": "Haftalik g'olib", "description": "7 kun ketma-ket mashq qildingiz" },
+    { "id": "streak_14", "icon": "💪", "name": "Mustahkam odat", "description": "14 kun ketma-ket mashq qildingiz" },
+    { "id": "streak_30", "icon": "🌟", "name": "Oylik chempion", "description": "30 kun ketma-ket mashq qildingiz" },
+    { "id": "streak_100", "icon": "🏆", "name": "Afsonaviy streak", "description": "100 kun ketma-ket mashq qildingiz" },
+
+    { "id": "perfect_score", "icon": "💯", "name": "Mukammal natija", "description": "Testni 100% natija bilan tugatdingiz" },
+
+    { "id": "vocab_10", "icon": "🔤", "name": "So'z yig'uvchi", "description": "10 ta so'zni o'zlashtirdingiz" },
+    { "id": "vocab_50", "icon": "📖", "name": "Lug'at ustasi", "description": "50 ta so'zni o'zlashtirdingiz" },
+    { "id": "vocab_100", "icon": "🧠", "name": "So'z boyligi", "description": "100 ta so'zni o'zlashtirdingiz" },
+    { "id": "vocab_250", "icon": "🎯", "name": "Lingvist", "description": "250 ta so'zni o'zlashtirdingiz" },
+
+    { "id": "level_a1_complete", "icon": "🌱", "name": "A1 bosqichi tugadi", "description": "Barcha A1 darslarini tugatdingiz" },
+    { "id": "level_a2_complete", "icon": "🌿", "name": "A2 bosqichi tugadi", "description": "Barcha A2 darslarini tugatdingiz" },
+    { "id": "level_b1_complete", "icon": "🌳", "name": "B1 bosqichi tugadi", "description": "Barcha B1 darslarini tugatdingiz" },
+    { "id": "level_b2_complete", "icon": "🏔️", "name": "B2 bosqichi tugadi", "description": "Barcha B2 darslarini tugatdingiz" },
+    { "id": "level_c1_complete", "icon": "👑", "name": "C1 bosqichi tugadi", "description": "Barcha C1 darslarini tugatdingiz — Siz ustasiz!" },
+    { "id": "certificate_earned", "icon": "🎓", "name": "Diplomli mutaxassis", "description": "Barcha 50 ta darsni tugatib, sertifikat oldingiz" }
+  ]
+}
